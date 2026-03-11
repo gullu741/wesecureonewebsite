@@ -60,8 +60,12 @@ export default function ContactPage() {
       const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID
 
       if (formspreeId) {
-        // Submit to Formspree for GitHub Pages static hosting
-        const response = await fetch(`https://formspree.io/f/${formspreeId}`, {
+        // Handle both simple hash IDs (mlgpbjzp) and project paths (p/123/f/contact)
+        const endpoint = formspreeId.includes('/') 
+          ? `https://formspree.io/${formspreeId}` 
+          : `https://formspree.io/f/${formspreeId}`
+
+        const response = await fetch(endpoint, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

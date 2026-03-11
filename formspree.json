@@ -1,0 +1,14 @@
+{
+  "project": "2955116080319691919",
+  "forms": {
+    "contactForm": {
+      "name": "Website Contact Form",
+      "actions": [
+        {
+          "type": "email",
+          "to": "gulshan@nixa.ca"
+        }
+      ]
+    }
+  }
+}
