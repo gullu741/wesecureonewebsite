@@ -1,6 +1,17 @@
 import type { NextConfig } from 'next';
 
+const isGithubActions = process.env.GITHUB_ACTIONS || false;
+let basePath = '';
+
+if (isGithubActions) {
+  // Trim off the GitHub organization name to just get the repo name
+  const repo = process.env.GITHUB_REPOSITORY?.split('/')[1] || 'wesecureonewebsite';
+  basePath = `/${repo}`;
+}
+
 const nextConfig: NextConfig = {
+  basePath: isGithubActions ? basePath : undefined,
+  assetPrefix: isGithubActions ? `${basePath}/` : undefined,
   reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,
