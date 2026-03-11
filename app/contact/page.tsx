@@ -57,16 +57,26 @@ export default function ContactPage() {
   async function onSubmit(data: ContactFormValues) {
     setIsSubmitting(true)
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      })
+      const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID
 
-      if (!response.ok) {
-        throw new Error("Failed to submit form")
+      if (formspreeId) {
+        // Submit to Formspree for GitHub Pages static hosting
+        const response = await fetch(`https://formspree.io/f/${formspreeId}`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+          },
+          body: JSON.stringify(data),
+        })
+
+        if (!response.ok) {
+          throw new Error("Failed to submit form to Formspree")
+        }
+      } else {
+        // Fallback for local testing or when no ID is provided
+        console.log("Mock submission (Configure NEXT_PUBLIC_FORMSPREE_ID to enable):", data)
+        await new Promise((resolve) => setTimeout(resolve, 1000))
       }
 
       setIsSuccess(true)

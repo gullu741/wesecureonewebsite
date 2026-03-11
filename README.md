@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# WeSecureOne Website
 
-# Run and deploy your AI Studio app
+This is the source code for the WeSecureOne static website, designed for deployment on GitHub Pages.
 
-This contains everything you need to run your app locally.
+## Features
+- **Next.js 15**: Modern web framework for high performance.
+- **Tailwind CSS**: Utility-first styling for a custom look and feel.
+- **Formspree Integration**: Serverless contact form handling.
+- **Static Export**: Optimized for hosting on GitHub Pages.
 
-View your app in AI Studio: https://ai.studio/apps/3973d0be-67c1-4633-8a46-17f5c42a4782
+## Getting Started
 
-## Run Locally
+### Prerequisites
+- Node.js (v18 or later)
+- npm
 
-**Prerequisites:**  Node.js
+### Installation
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
+### Development
+Run the development server:
+```bash
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Deployment
+The site is automatically deployed via GitHub Actions when changes are pushed to the main branch.
+
+To manually build the static site:
+```bash
+npm run build
+```
+The output will be in the `out/` directory.
+
+## Contact Form Configuration
+To enable the contact form:
+1. Get a Form ID from [Formspree](https://formspree.io/).
+2. Add it to your environment variables or `.env` file:
+   ```env
+   NEXT_PUBLIC_FORMSPREE_ID="your_id_here"
+   ```
