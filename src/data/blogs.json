@@ -1,0 +1,30 @@
+[
+    {
+        "slug": "understanding-zero-trust-architecture",
+        "title": "Understanding Zero Trust Architecture",
+        "description": "A deep dive into why perimeter-based security is dead and how to implement zero trust.",
+        "date": "2026-03-01T10:00:00.000Z",
+        "author": "Gulshan",
+        "tags": [
+            "Security",
+            "Architecture",
+            "Zero Trust"
+        ],
+        "content": "## Introduction\n\nThe traditional network security approach... (Content goes here)",
+        "readingTime": "5 min read"
+    },
+    {
+        "slug": "top-5-cloud-misconfigurations",
+        "title": "Top 5 Cloud Misconfigurations",
+        "description": "The most common mistakes organizations make in AWS and how to fix them automatically.",
+        "date": "2026-02-15T10:00:00.000Z",
+        "author": "Gulshan",
+        "tags": [
+            "Cloud",
+            "AWS",
+            "CSPM"
+        ],
+        "content": "## The AWS Conundrum\n\nWhen scaling rapidly... (Content goes here)",
+        "readingTime": "3 min read"
+    }
+]

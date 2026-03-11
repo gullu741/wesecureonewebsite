@@ -1,0 +1,17 @@
+[
+    {
+        "quote": "WeSecureOne completely transformed our security posture. We now have 24/7 visibility and peace of mind.",
+        "author": "Jane Doe",
+        "role": "CISO, RetailCo"
+    },
+    {
+        "quote": "Their penetration testing team found critical vulnerabilities that our previous vendor missed entirely.",
+        "author": "John Smith",
+        "role": "VP Engineering, FinTech Inc"
+    },
+    {
+        "quote": "The incident response team was incredible. They contained the ransomware attack in hours, saving our business.",
+        "author": "Alice Johnson",
+        "role": "Director of IT, HealthNet"
+    }
+]
