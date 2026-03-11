@@ -5,8 +5,12 @@ import { services } from "@/src/content/services"
 import { ArrowRight, CheckCircle2 } from "lucide-react"
 
 export const metadata = {
-  title: "Services | WeSecureOne",
-  description: "Comprehensive offensive security, continuous monitoring, and compliance solutions.",
+  title: "Cybersecurity Services | WeSecureOne",
+  description: "Comprehensive offensive security, penetration testing, continuous monitoring (MDR), and compliance solutions. Protect your infrastructure with WeSecureOne.",
+  openGraph: {
+    title: "Cybersecurity Services | WeSecureOne",
+    description: "Explore our expert offensive security, MDR, and compliance advisory services tailored for enterprise architecture.",
+  }
 }
 
 export default function ServicesPage() {

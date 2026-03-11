@@ -6,8 +6,12 @@ import { format } from "date-fns"
 import { ArrowRight, Calendar, Clock } from "lucide-react"
 
 export const metadata = {
-  title: "Blog | WeSecureOne",
-  description: "Insights, tutorials, and news from our team of experts.",
+  title: "Cybersecurity Blog & Insights | WeSecureOne",
+  description: "Read expert insights, threat intelligence reports, and guides on Zero Trust, Cloud Security, and Ransomware defense.",
+  openGraph: {
+    title: "Cybersecurity Blog & Insights | WeSecureOne",
+    description: "Read expert insights, threat intelligence reports, and guides on Zero Trust, Cloud Security, and Ransomware defense.",
+  }
 }
 
 export default async function BlogPage() {
