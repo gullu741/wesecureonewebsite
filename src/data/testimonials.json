@@ -1,17 +1,32 @@
 [
     {
-        "quote": "WeSecureOne completely transformed our security posture. We now have 24/7 visibility and peace of mind.",
-        "author": "Jane Doe",
-        "role": "CISO, RetailCo"
+        "quote": "WeSecureOne didn't just find vulnerabilities; they provided a strategic roadmap that aligned our security posture with our business goals. Their penetration testing methodology is unparalleled.",
+        "author": "Elena Rodriguez",
+        "role": "Chief Information Security Officer, FinServe Global"
     },
     {
-        "quote": "Their penetration testing team found critical vulnerabilities that our previous vendor missed entirely.",
-        "author": "John Smith",
-        "role": "VP Engineering, FinTech Inc"
+        "quote": "When we were hit by a sophisticated ransomware attack, the WeSecureOne incident response team was on-site within hours. They contained the threat, eradicated the malware, and had our core systems running securely with zero data loss.",
+        "author": "Marcus Chen",
+        "role": "VP of Infrastructure, HealthPlus Networks"
     },
     {
-        "quote": "The incident response team was incredible. They contained the ransomware attack in hours, saving our business.",
-        "author": "Alice Johnson",
-        "role": "Director of IT, HealthNet"
+        "quote": "Navigating SOC2 and HIPAA compliance used to be a nightmare for our engineering team. WeSecureOne streamlined the entire process, automating evidence collection and saving us hundreds of hours.",
+        "author": "Sarah Jenkins",
+        "role": "CTO, MedTech Innovations"
+    },
+    {
+        "quote": "Their cloud security architecture review completely transformed how we deploy to AWS. By implementing their Zero Trust recommendations, we reduced our attack surface by 90% while actually accelerating our CI/CD pipeline.",
+        "author": "David Al-Fayed",
+        "role": "Director of Cloud Engineering, SaaS Co."
+    },
+    {
+        "quote": "We rely on WeSecureOne for our 24/7 Managed Detection and Response. The peace of mind knowing that elite analysts are monitoring our hybrid environment around the clock is invaluable.",
+        "author": "Michael Torres",
+        "role": "IT Director, Apex Manufacturing"
+    },
+    {
+        "quote": "The red team engagement conducted by WeSecureOne exposed critical physical and logical security gaps that automated scanners simply couldn't detect. Truly eye-opening and deeply professional.",
+        "author": "Jessica Wallace",
+        "role": "Head of Security Operations, SecureRetail"
     }
 ]
