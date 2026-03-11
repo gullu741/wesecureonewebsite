@@ -90,7 +90,7 @@ export default function ContactPage() {
     <div className="container mx-auto px-4 py-16 md:py-24">
       <div className="mb-16 max-w-3xl">
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
-          Let's Build Something Great
+          Let&apos;s Build Something Great
         </h1>
         <p className="mt-6 text-xl text-muted-foreground">
           Whether you need a full-scale digital transformation or a specific technical solution, our team is ready to help.
@@ -104,7 +104,7 @@ export default function ContactPage() {
               <CardHeader>
                 <CardTitle className="text-primary">Thank you for reaching out!</CardTitle>
                 <CardDescription className="text-primary/80">
-                  We've received your message and will be in touch shortly.
+                  We&apos;ve received your message and will be in touch shortly.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -212,7 +212,7 @@ export default function ContactPage() {
                 <Textarea
                   id="message"
                   {...form.register("message")}
-                  placeholder="Tell us about your goals, challenges, and what you're looking to achieve."
+                  placeholder="Tell us about your goals, challenges, and what you&apos;re looking to achieve."
                   className="min-h-[150px]"
                 />
                 {form.formState.errors.message && (
@@ -296,15 +296,15 @@ export default function ContactPage() {
               <ol className="space-y-4 text-sm text-primary-foreground/80">
                 <li className="flex gap-3">
                   <span className="font-bold text-white">1.</span>
-                  <span>We'll review your request within 24 hours.</span>
+                  <span>We&apos;ll review your request within 24 hours.</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-white">2.</span>
-                  <span>We'll schedule a 30-minute discovery call.</span>
+                  <span>We&apos;ll schedule a 30-minute discovery call.</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-white">3.</span>
-                  <span>We'll provide a tailored proposal and timeline.</span>
+                  <span>We&apos;ll provide a tailored proposal and timeline.</span>
                 </li>
               </ol>
             </CardContent>

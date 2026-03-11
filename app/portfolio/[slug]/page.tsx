@@ -76,7 +76,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
           <section className="rounded-2xl bg-primary/10 p-8">
             <h2 className="text-2xl font-bold tracking-tight text-primary">What We Learned</h2>
             <p className="mt-4 text-lg text-primary/80 leading-relaxed italic">
-              "{study.whatWeLearned}"
+              &quot;{study.whatWeLearned}&quot;
             </p>
           </section>
         </div>

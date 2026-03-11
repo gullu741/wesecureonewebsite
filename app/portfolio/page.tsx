@@ -20,7 +20,7 @@ export default async function PortfolioPage() {
           Our Work
         </h1>
         <p className="mt-6 text-xl text-muted-foreground">
-          Discover how we've helped leading organizations overcome complex challenges and achieve their strategic goals.
+          Discover how we&apos;ve helped leading organizations overcome complex challenges and achieve their strategic goals.
         </p>
       </div>
 
@@ -55,7 +55,7 @@ export default async function PortfolioPage() {
           Ready to be our next success story?
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-lg text-secondary-foreground/80">
-          Let's discuss how our security expertise can help you protect your organization.
+          Let&apos;s discuss how our security expertise can help you protect your organization.
         </p>
         <div className="mt-8 flex justify-center">
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">

@@ -126,7 +126,7 @@ export default function AboutPage() {
           Join Our Team
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-lg text-primary-foreground/80">
-          We're always looking for talented individuals who share our passion for technology and innovation.
+          We&apos;re always looking for talented individuals who share our passion for technology and innovation.
         </p>
         <div className="mt-8 flex justify-center">
           <Button asChild size="lg" variant="secondary" className="bg-background text-foreground hover:bg-background/90">

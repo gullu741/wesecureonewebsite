@@ -83,7 +83,7 @@ export default function Home() {
           <div className="mb-12 flex flex-col items-center justify-between gap-4 md:flex-row">
             <div>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Featured Work</h2>
-              <p className="mt-4 text-muted-foreground">See how we've helped our clients succeed.</p>
+              <p className="mt-4 text-muted-foreground">See how we&apos;ve helped our clients succeed.</p>
             </div>
             <Button asChild variant="outline">
               <Link href="/portfolio">View All Case Studies</Link>
@@ -157,7 +157,7 @@ export default function Home() {
             {testimonials.map((testimonial, i) => (
               <Card key={i} className="bg-white/10 text-white backdrop-blur-sm border-white/20">
                 <CardContent className="pt-6">
-                  <p className="mb-6 text-lg italic">"{testimonial.quote}"</p>
+                  <p className="mb-6 text-lg italic">&quot;{testimonial.quote}&quot;</p>
                   <div>
                     <p className="font-semibold">{testimonial.author}</p>
                     <p className="text-sm text-primary-foreground/80">{testimonial.role}</p>
@@ -176,7 +176,7 @@ export default function Home() {
             Ready to transform your business?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-secondary-foreground/80">
-            Let's discuss how our security expertise can help you protect your organization.
+            Let&apos;s discuss how our security expertise can help you protect your organization.
           </p>
           <div className="mt-8 flex justify-center">
             <Button asChild size="lg" variant="default" className="bg-primary text-primary-foreground hover:bg-primary/90">
