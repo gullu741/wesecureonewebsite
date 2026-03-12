@@ -2,7 +2,7 @@
 
 import { useState, useRef } from "react"
 import Link from "next/link"
-import { ChevronDown, ArrowRight } from "lucide-react"
+import { ChevronDown, ArrowRight, Code2, Building2, ShieldCheck, Wrench } from "lucide-react"
 import { services } from "@/src/content/services"
 
 const CATEGORY_ORDER = [
@@ -12,11 +12,11 @@ const CATEGORY_ORDER = [
   "Implementation & Support",
 ]
 
-const CATEGORY_ICONS: Record<string, string> = {
-  "Development": "⚙️",
-  "Industry Solutions": "🏢",
-  "Consulting & Strategy": "🛡️",
-  "Implementation & Support": "🔧",
+const CATEGORY_ICONS: Record<string, any> = {
+  "Development": Code2,
+  "Industry Solutions": Building2,
+  "Consulting & Strategy": ShieldCheck,
+  "Implementation & Support": Wrench,
 }
 
 export function ServicesMenu() {
@@ -80,9 +80,16 @@ export function ServicesMenu() {
               }`}
             >
               {/* Column header */}
-              <div className="mb-2 flex items-center gap-2 border-b border-border/40 pb-2">
-                <span className="text-lg">{CATEGORY_ICONS[cat]}</span>
-                <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+              <div className="mb-3 flex items-center gap-2.5 border-b border-border/40 pb-2.5">
+                {(() => {
+                  const Icon = CATEGORY_ICONS[cat]
+                  return (
+                    <div className="flex h-7 w-7 items-center justify-center rounded-md bg-primary/10 text-primary">
+                      <Icon className="h-4 w-4" />
+                    </div>
+                  )
+                })()}
+                <span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground/80">
                   {cat}
                 </span>
               </div>
