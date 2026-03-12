@@ -47,16 +47,16 @@ export function ServicesMenu() {
       onMouseLeave={handleMouseLeave}
     >
       {/* Trigger */}
-      <button
+      <Link
+        href="/services"
         className="flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
-        aria-expanded={open}
-        aria-haspopup="true"
+        onClick={() => setOpen(false)}
       >
         Services
         <ChevronDown
           className={`h-4 w-4 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
         />
-      </button>
+      </Link>
 
       {/* Dropdown panel */}
       <div
