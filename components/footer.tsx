@@ -11,7 +11,7 @@ export function Footer() {
               <LogoIcon className="h-10 w-10" />
               <span>
                 <span className="text-foreground">WeSecure</span>
-                <span className="text-[#D31124]">One</span>
+                <span style={{ color: "var(--brand-red)" }}>One</span>
               </span>
             </h3>
             <p className="text-sm text-muted-foreground">

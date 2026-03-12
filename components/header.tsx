@@ -25,7 +25,7 @@ export function Header() {
             <LogoIcon className="h-10 w-10" />
             <span className="inline-block font-extrabold text-2xl tracking-tight">
               <span className="text-foreground">WeSecure</span>
-              <span className="text-[#D31124]">One</span>
+              <span style={{ color: "var(--brand-red)" }}>One</span>
             </span>
           </Link>
 

@@ -1,0 +1,35 @@
+/* 
+  WE SECURE ONE - CENTRAL THEME SOURCE FILE
+  
+  Manually tweak these colors to change the entire website's appearance.
+  Variables defined here are mapped to the global design system in globals.css.
+*/
+
+:root {
+  /* --- LIGHT MODE BRAND COLORS --- */
+  --brand-navy: #0F204B;       /* Core business navy blue */
+  --brand-red: #D31124;        /* Core security red */
+  --brand-red-light: #E62433;  /* Brighter red for accents */
+  
+  /* --- DARK MODE BRAND COLORS --- */
+  --brand-red-dark: #b01a1a;   /* Slightly more balanced crimson for dark mode */
+  
+  /* --- NEUTRALS & BACKGROUNDS --- */
+  /* Light Mode */
+  --bg-light: #f8fafc;         /* Subtle off-white for background depth */
+  --fg-light: #09090b;
+  --card-light: #ffffff;       /* Pure white cards that pop */
+  --border-light: #e2e8f0;     /* More defined border for card separation */
+  
+  /* Dark Mode */
+  --bg-dark: #020617;          /* High-end midnight navy */
+  --fg-dark: #f8fafc;
+  --card-dark: #0F172A;        /* Slate navy card */
+  --border-dark: #334155;      /* More visible border in dark mode */
+
+  /* --- LOGO SPECIFIC (Internal) --- */
+  --logo-navy-deep: #0A1931;
+  --logo-navy-top: #112240;
+  --logo-white: #F9FAFB;
+  --logo-silver: #E5E7EB;
+}

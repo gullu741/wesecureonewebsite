@@ -171,15 +171,15 @@ export default function Home() {
 
       {/* CTA Banner */}
       <section className="container mx-auto px-4">
-        <div className="rounded-3xl bg-secondary px-6 py-16 text-center text-secondary-foreground sm:px-12 md:py-20">
+        <div className="rounded-3xl bg-primary px-6 py-16 text-center text-primary-foreground sm:px-12 md:py-20">
           <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">
             Ready to transform your business?
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-lg text-secondary-foreground/80">
+          <p className="mx-auto mt-4 max-w-xl text-lg text-primary-foreground">
             Let&apos;s discuss how our security expertise can help you protect your organization.
           </p>
           <div className="mt-8 flex justify-center">
-            <Button asChild size="lg" variant="default" className="bg-primary text-primary-foreground hover:bg-primary/90">
+            <Button asChild size="lg" variant="secondary" className="bg-secondary text-secondary-foreground hover:bg-secondary/90">
               <Link href="/contact">Get in Touch</Link>
             </Button>
           </div>

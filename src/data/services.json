@@ -253,10 +253,10 @@
   },
   {
     "slug": "web-development",
-    "title": "Web Development & Websites",
-    "shortName": "Web Development",
-    "shortDescription": "Custom web development and website delivery for scalable products.",
-    "description": "We build scalable, high-performance websites and web applications tailored to your business needs, utilizing modern frameworks and best practices to ensure secure and robust delivery.",
+    "title": "Secure Enterprise Web Development",
+    "shortName": "Secure Web Dev",
+    "shortDescription": "High-performance, security-first web applications and portals.",
+    "description": "We architect and build scalable, enterprise-grade web applications with a focus on core security, performance, and robust delivery for critical business operations.",
     "problemsSolved": [
       "Outdated web presence",
       "Poor website performance",
@@ -295,10 +295,10 @@
   },
   {
     "slug": "mobile-app-development",
-    "title": "Mobile App Development",
-    "shortName": "Mobile Apps",
-    "shortDescription": "Native and cross-platform iOS and Android apps built for performance.",
-    "description": "Our team delivers seamless mobile experiences across iOS and Android. Whether native or cross-platform, we focus on performance, security, and exceptional user experience.",
+    "title": "Secure Mobile App Architecture",
+    "shortName": "Secure Mobile",
+    "shortDescription": "Encrypted, high-performance iOS and Android applications.",
+    "description": "Our mobile solutions prioritize secure data handling, encryption, and platform-specific optimizations for seamless and protected user experiences across all devices.",
     "problemsSolved": [
       "Lack of mobile presence",
       "Slow and buggy mobile apps",
@@ -510,10 +510,10 @@
   },
   {
     "slug": "shopify-development",
-    "title": "Shopify & Shopify Plus Development",
-    "shortName": "Shopify Dev",
-    "shortDescription": "Fully customized Shopify stores with advanced features, apps, and internationalization.",
-    "description": "We build and customize Shopify and Shopify Plus storefronts tailored to your brand and operations. From custom theme development to multi-currency internationalization and bespoke Shopify app integrations, we maximize your commerce performance on the world's leading platform.",
+    "title": "Secure Shopify Plus Architecture",
+    "shortName": "Secure Shopify",
+    "shortDescription": "Hardened Shopify storefronts with advanced integrations and data protection.",
+    "description": "We engineer and secure Shopify Plus storefronts for high-growth brands. From bespoke theme development to encrypted third-party integrations, we ensure your commerce engine is both fast and bulletproof.",
     "problemsSolved": [
       "Generic or poorly performing Shopify themes",
       "Missing features requiring custom apps",
@@ -557,10 +557,10 @@
   },
   {
     "slug": "woocommerce-development",
-    "title": "WooCommerce Development",
-    "shortName": "WooCommerce",
-    "shortDescription": "WordPress-powered ecommerce with unlimited customization, subscriptions, and memberships.",
-    "description": "We build powerful WooCommerce stores on WordPress that offer complete ownership and limitless flexibility. From custom plugin development and payment gateway integration to subscription and membership sites, we engineer WooCommerce solutions that scale with your business.",
+    "title": "Secure WordPress & WooCommerce",
+    "shortName": "Secure WooCommerce",
+    "shortDescription": "Hardened WordPress ecosystems with unlimited customization and membership security.",
+    "description": "We build enterprise-capable WooCommerce stores on hardened WordPress frameworks. Our solutions offer complete data ownership and limitless flexibility without compromising on security.",
     "problemsSolved": [
       "Platform lock-in with proprietary ecommerce tools",
       "Need for subscription or membership business models",
@@ -604,20 +604,19 @@
   },
   {
     "slug": "native-ios-development",
-    "title": "Native iOS Development",
-    "shortName": "iOS Dev",
-    "shortDescription": "Swift and Objective-C apps optimized for iPhone and iPad with full App Store submission.",
-    "description": "We develop native iOS applications using Swift and UIKit/SwiftUI, delivering platform-specific optimization that cross-platform frameworks simply cannot match. From push notifications and biometric authentication to deep iOS SDK integrations and App Store submission, we build polished, high-performance iPhone and iPad apps.",
+    "title": "Secure iOS Development",
+    "shortName": "Secure iOS",
+    "shortDescription": "Hardened Swift and Objective-C apps with deep iOS security integration.",
+    "description": "We develop native iOS applications with a security-first approach, utilizing Swift and Apple's latest security frameworks. From encrypted local storage to secure biometric authentication, we build high-performance, hardened iPhone and iPad apps.",
     "problemsSolved": [
-      "Poor performance from cross-platform apps",
-      "Need for deep iOS hardware integration",
-      "App Store optimization and submission challenges"
+      "Insecure local data storage",
+      "Vulnerable biometric implementations",
+      "App Store security compliance"
     ],
     "deliverables": [
-      "Native Swift iOS App",
-      "SwiftUI / UIKit Interface",
-      "Push Notifications & Biometric Auth",
-      "App Store Submission & Optimization"
+      "Hardened Swift iOS App",
+      "Secure Keychain & Biometric Auth",
+      "App Store Security Review Support"
     ],
     "process": [
       {
@@ -651,20 +650,19 @@
   },
   {
     "slug": "native-android-development",
-    "title": "Native Android Development",
-    "shortName": "Android Dev",
-    "shortDescription": "Kotlin and Java apps for the Android ecosystem with Google Play Store deployment.",
-    "description": "We develop native Android applications using Kotlin and Java with Material Design, delivering optimized performance across the Android device ecosystem. From Firebase integration and Google Play Store deployment to Android-specific hardware integrations, we build reliable, scalable Android apps.",
+    "title": "Secure Android Development",
+    "shortName": "Secure Android",
+    "shortDescription": "Hardened Kotlin and Java apps for the Android ecosystem with secure cloud integration.",
+    "description": "We develop secure native Android applications using Kotlin and modern security best practices. We focus on protecting user data across a fragmented device ecosystem through robust encryption and secure API communication.",
     "problemsSolved": [
-      "Poor Android performance from generic cross-platform apps",
-      "Need for Google ecosystem deep integrations (Firebase, Maps, Play)",
-      "Google Play Store compliance and submission"
+      "Data exposure on fragmented devices",
+      "Insecure inter-process communication",
+      "Google Play Protect compliance"
     ],
     "deliverables": [
-      "Native Kotlin Android App",
-      "Material Design Interface",
-      "Firebase Integration",
-      "Google Play Store Submission"
+      "Hardened Kotlin Android App",
+      "Secure Firebase Integration",
+      "Google Play Security Compliance"
     ],
     "process": [
       {

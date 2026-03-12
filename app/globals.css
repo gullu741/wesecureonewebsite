@@ -1,3 +1,4 @@
+@import "./theme-config.css";
 @import "tailwindcss";
 
 @theme {
@@ -36,65 +37,65 @@
 
 @layer base {
   :root {
-    --background: #ffffff;
-    --foreground: #09090b;
+    --background: var(--bg-light);
+    --foreground: var(--fg-light);
 
-    --card: #ffffff;
-    --card-foreground: #09090b;
+    --card: var(--card-light);
+    --card-foreground: var(--fg-light);
 
-    --popover: #ffffff;
-    --popover-foreground: #09090b;
+    --popover: var(--bg-light);
+    --popover-foreground: var(--fg-light);
 
-    --primary: #0F204B; /* Navy Blue */
+    --primary: var(--brand-navy);
     --primary-foreground: #ffffff;
 
-    --secondary: #D31124; /* Red */
+    --secondary: var(--brand-red);
     --secondary-foreground: #ffffff;
 
     --muted: #f4f4f5;
     --muted-foreground: #71717a;
 
     --accent: #f4f4f5;
-    --accent-foreground: #09090b;
+    --accent-foreground: var(--fg-light);
 
     --destructive: #ef4444;
     --destructive-foreground: #ffffff;
 
-    --border: #e4e4e7;
-    --input: #e4e4e7;
-    --ring: #0F204B;
+    --border: var(--border-light);
+    --input: var(--border-light);
+    --ring: var(--brand-navy);
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: #0B1120; /* Dark Navy Background */
-    --foreground: #f8fafc;
+    --background: var(--bg-dark);
+    --foreground: var(--fg-dark);
 
-    --card: #111827;
-    --card-foreground: #f8fafc;
+    --card: var(--card-dark);
+    --card-foreground: var(--fg-dark);
 
-    --popover: #111827;
-    --popover-foreground: #f8fafc;
+    --popover: var(--card-dark);
+    --popover-foreground: var(--fg-dark);
 
-    --primary: #D31124; /* Red */
+    --primary: var(--brand-red-dark);
     --primary-foreground: #ffffff;
 
     --secondary: #1E293B;
-    --secondary-foreground: #f8fafc;
+    --secondary-foreground: var(--fg-dark);
 
     --muted: #1E293B;
     --muted-foreground: #94a3b8;
 
     --accent: #1E293B;
-    --accent-foreground: #f8fafc;
+    --accent-foreground: var(--fg-dark);
 
     --destructive: #7f1d1d;
     --destructive-foreground: #fafafa;
 
-    --border: #1E293B;
+    --border: var(--border-dark);
     --input: #1E293B;
-    --ring: #D31124;
+    --ring: var(--brand-red-dark);
   }
 }
 

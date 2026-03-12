@@ -50,11 +50,10 @@ export default function ServicesPage() {
 
           return (
             <section key={cat} className="mb-20 last:mb-0">
-              <div className="mb-10 flex items-center gap-6">
-                <div className="h-px flex-1 bg-border/60"></div>
+              <div className="mb-12 flex items-center gap-4">
                 <div className="flex items-center gap-3">
-                  {Icon && <Icon className="h-6 w-6 text-primary/60 md:h-8 md:w-8" />}
-                  <h2 className="whitespace-nowrap text-xl font-bold uppercase tracking-[0.2em] text-muted-foreground/80 sm:text-2xl md:text-3xl">
+                  {Icon && <Icon className="h-6 w-6 text-primary" />}
+                  <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
                     {cat}
                   </h2>
                 </div>
@@ -72,12 +71,9 @@ export default function ServicesPage() {
                     whileHover={{ y: -5 }}
                     className="group relative"
                   >
-                    {/* Decorative Background Glow */}
-                    <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 opacity-0 blur transition duration-500 group-hover:opacity-100" />
-                    
-                    <Card className="relative flex h-full flex-col overflow-hidden border-border/50 bg-background/80 backdrop-blur-sm transition-all duration-300 hover:border-primary/30">
-                      {/* Top Accent Bar */}
-                      <div className="h-1 w-0 bg-gradient-to-r from-primary to-secondary transition-all duration-500 group-hover:w-full" />
+                    <Card className="relative flex h-full flex-col overflow-hidden border-border/50 bg-card shadow-sm transition-all duration-300 hover:border-primary/50 hover:shadow-xl">
+                      {/* Top Brand Accent Bar */}
+                      <div className="h-1.5 w-full bg-primary/10 transition-colors group-hover:bg-primary" />
                       
                       <CardHeader className="relative pb-4">
                         <div className="mb-4 flex items-center justify-between">
@@ -138,15 +134,15 @@ export default function ServicesPage() {
         })
       })()}
 
-      <div className="mt-24 rounded-3xl bg-secondary px-6 py-16 text-center text-secondary-foreground sm:px-12 md:py-20">
+      <div className="mt-24 rounded-3xl bg-primary px-6 py-16 text-center text-primary-foreground sm:px-12 md:py-20">
         <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">
           Not sure where to start?
         </h2>
-        <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
+        <p className="mx-auto mt-4 max-w-xl text-lg text-primary-foreground">
           Schedule a free consultation to discuss your specific needs and how we can help.
         </p>
         <div className="mt-8 flex justify-center">
-          <Button asChild size="lg">
+          <Button asChild size="lg" variant="secondary" className="bg-secondary text-secondary-foreground hover:bg-secondary/90">
             <Link href="/contact">Book a Consultation</Link>
           </Button>
         </div>
