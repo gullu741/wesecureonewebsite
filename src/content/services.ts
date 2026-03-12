@@ -112,5 +112,90 @@ export const services: Service[] = [
     faqs: [
       { question: 'Can you guarantee we will pass our audit?', answer: 'While we cannot guarantee an auditors decision, our clients have a 100% success rate after following our remediation plans.' }
     ]
+  },
+  {
+    slug: 'web-development',
+    title: 'Web Development & Websites',
+    shortDescription: 'Custom web development and website delivery for scalable products.',
+    description: 'We build scalable, high-performance websites and web applications tailored to your business needs, utilizing modern frameworks and best practices to ensure secure and robust delivery.',
+    problemsSolved: ['Outdated web presence', 'Poor website performance', 'Lack of scalability'],
+    deliverables: ['Custom Web Application', 'Responsive UI/UX Design', 'Optimized Performance'],
+    process: [
+      { step: 1, title: 'Discovery', description: 'Analyze requirements and outline project scope.' },
+      { step: 2, title: 'Development', description: 'Build the application using modern stacks.' },
+      { step: 3, title: 'Deployment', description: 'Launch and ensure everything runs smoothly.' }
+    ],
+    sampleTimeline: '8-16 weeks',
+    faqs: [
+      { question: 'Do you provide ongoing support?', answer: 'Yes, we offer maintenance and support packages to ensure your web product remains up-to-date.' }
+    ]
+  },
+  {
+    slug: 'mobile-app-development',
+    title: 'Mobile App Development',
+    shortDescription: 'Native and cross-platform iOS and Android apps built for performance.',
+    description: 'Our team delivers seamless mobile experiences across iOS and Android. Whether native or cross-platform, we focus on performance, security, and exceptional user experience.',
+    problemsSolved: ['Lack of mobile presence', 'Slow and buggy mobile apps', 'Poor user engagement'],
+    deliverables: ['iOS App', 'Android App', 'Cross-Platform Solution'],
+    process: [
+      { step: 1, title: 'Design', description: 'Create intuitive mobile interfaces.' },
+      { step: 2, title: 'Build', description: 'Develop the app with secure coding practices.' },
+      { step: 3, title: 'Launch', description: 'Publish to the App Store and Google Play.' }
+    ],
+    sampleTimeline: '12-20 weeks',
+    faqs: [
+      { question: 'Do you build native or cross-platform apps?', answer: 'We specialize in both, depending on your business requirements and budget.' }
+    ]
+  },
+  {
+    slug: 'ecommerce-development',
+    title: 'Ecommerce Development',
+    shortDescription: 'High-converting storefronts, integrations, and growth-ready commerce stacks.',
+    description: 'We develop secure and scalable ecommerce platforms designed to maximize conversions. From custom storefronts to complex backend integrations, we build growth-ready digital commerce solutions.',
+    problemsSolved: ['Low conversion rates', 'Insecure payment gateways', 'Scalability issues during traffic spikes'],
+    deliverables: ['Custom Storefront', 'Secure Payment Integration', 'Inventory Management Systems'],
+    process: [
+      { step: 1, title: 'Strategy', description: 'Define the commerce architecture and user journey.' },
+      { step: 2, title: 'Integration', description: 'Connect payment gateways and fulfillment systems.' },
+      { step: 3, title: 'Optimization', description: 'Refine for maximum conversion and speed.' }
+    ],
+    sampleTimeline: '10-16 weeks',
+    faqs: [
+      { question: 'Is the platform secure for transactions?', answer: 'Absolutely. We ensure all ecommerce builds comply with PCI-DSS and employ the latest security standards.' }
+    ]
+  },
+  {
+    slug: 'ai-intelligent-automation',
+    title: 'AI & Intelligent Automation',
+    shortDescription: 'Transform your data into automated workflows and beautiful dashboards.',
+    description: 'Leverage our AI-powered enterprise platform to streamline operations, visualize data, and build intelligent visual workflows. We help businesses automate routine tasks and unlock powerful insights for decision-making.',
+    problemsSolved: ['Manual repetitive tasks', 'Siloed data sources', 'Lack of real-time insights'],
+    deliverables: ['Custom AI Workflows', 'Interactive Dashboards', 'Data Integrations'],
+    process: [
+      { step: 1, title: 'Data Mapping', description: 'Connect and integrate data from various sources.' },
+      { step: 2, title: 'Workflow Design', description: 'Create triggers and visual automation pipelines.' },
+      { step: 3, title: 'AI Integration', description: 'Deploy intelligent models for advanced insights.' }
+    ],
+    sampleTimeline: '4-8 weeks',
+    faqs: [
+      { question: 'Can it connect to our current CRM/ERP?', answer: 'Yes, our platform features one-click API connections to integrate seamlessly with your existing stack.' }
+    ]
+  },
+  {
+    slug: 'api-development',
+    title: 'API & Headless Development',
+    shortDescription: 'Secure APIs and composable, fast web experiences.',
+    description: 'We architect and build secure APIs that power modern products and enable headless web development. By decoupling the frontend and backend, we deliver composable, blazing-fast, and SEO-ready digital experiences.',
+    problemsSolved: ['Monolithic architecture limits', 'Slow load times', 'Insecure data endpoints'],
+    deliverables: ['Secure REST/GraphQL APIs', 'Headless CMS Integration', 'Microservices Architecture'],
+    process: [
+      { step: 1, title: 'Architecture', description: 'Design a composable, API-first architecture.' },
+      { step: 2, title: 'API Build', description: 'Develop endpoints with strict authentication and rate-limiting.' },
+      { step: 3, title: 'Frontend Integration', description: 'Connect the headless frontend for a fast user experience.' }
+    ],
+    sampleTimeline: '8-14 weeks',
+    faqs: [
+      { question: 'Why choose headless?', answer: 'Headless allows for greater flexibility, faster performance, and the ability to seamlessly deliver content across multiple platforms.' }
+    ]
   }
 ];
