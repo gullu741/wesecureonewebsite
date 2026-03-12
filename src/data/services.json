@@ -253,8 +253,8 @@
   },
   {
     "slug": "web-development",
-    "title": "Secure Enterprise Web Development",
-    "shortName": "Secure Web Dev",
+    "title": "Enterprise Platform Engineering",
+    "shortName": "Platform Eng",
     "shortDescription": "High-performance, security-first web applications and portals.",
     "description": "We architect and build scalable, enterprise-grade web applications with a focus on core security, performance, and robust delivery for critical business operations.",
     "problemsSolved": [
@@ -295,8 +295,8 @@
   },
   {
     "slug": "mobile-app-development",
-    "title": "Secure Mobile App Architecture",
-    "shortName": "Secure Mobile",
+    "title": "Advanced Mobile Architecture",
+    "shortName": "Mobile Arch",
     "shortDescription": "Encrypted, high-performance iOS and Android applications.",
     "description": "Our mobile solutions prioritize secure data handling, encryption, and platform-specific optimizations for seamless and protected user experiences across all devices.",
     "problemsSolved": [
@@ -510,8 +510,8 @@
   },
   {
     "slug": "shopify-development",
-    "title": "Secure Shopify Plus Architecture",
-    "shortName": "Secure Shopify",
+    "title": "Shopify Plus & Unified Commerce",
+    "shortName": "Shopify Plus",
     "shortDescription": "Hardened Shopify storefronts with advanced integrations and data protection.",
     "description": "We engineer and secure Shopify Plus storefronts for high-growth brands. From bespoke theme development to encrypted third-party integrations, we ensure your commerce engine is both fast and bulletproof.",
     "problemsSolved": [
@@ -557,8 +557,8 @@
   },
   {
     "slug": "woocommerce-development",
-    "title": "Secure WordPress & WooCommerce",
-    "shortName": "Secure WooCommerce",
+    "title": "Hardened CMS & E-commerce",
+    "shortName": "CMS & E-com",
     "shortDescription": "Hardened WordPress ecosystems with unlimited customization and membership security.",
     "description": "We build enterprise-capable WooCommerce stores on hardened WordPress frameworks. Our solutions offer complete data ownership and limitless flexibility without compromising on security.",
     "problemsSolved": [
@@ -604,8 +604,8 @@
   },
   {
     "slug": "native-ios-development",
-    "title": "Secure iOS Development",
-    "shortName": "Secure iOS",
+    "title": "Native iOS Engineering",
+    "shortName": "iOS Engineering",
     "shortDescription": "Hardened Swift and Objective-C apps with deep iOS security integration.",
     "description": "We develop native iOS applications with a security-first approach, utilizing Swift and Apple's latest security frameworks. From encrypted local storage to secure biometric authentication, we build high-performance, hardened iPhone and iPad apps.",
     "problemsSolved": [
@@ -650,8 +650,8 @@
   },
   {
     "slug": "native-android-development",
-    "title": "Secure Android Development",
-    "shortName": "Secure Android",
+    "title": "Native Android Engineering",
+    "shortName": "Android Engineering",
     "shortDescription": "Hardened Kotlin and Java apps for the Android ecosystem with secure cloud integration.",
     "description": "We develop secure native Android applications using Kotlin and modern security best practices. We focus on protecting user data across a fragmented device ecosystem through robust encryption and secure API communication.",
     "problemsSolved": [
