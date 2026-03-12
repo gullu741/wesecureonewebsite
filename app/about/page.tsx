@@ -7,6 +7,9 @@ import { ArrowRight, CheckCircle2, Users, Target, Zap } from "lucide-react"
 export const metadata = {
   title: "About Us | WeSecureOne",
   description: "Learn more about our mission, values, and the elite team behind WeSecureOne's industry-leading cybersecurity, MDR, and compliance solutions.",
+  alternates: {
+    canonical: "/about",
+  },
   openGraph: {
     title: "About Us | WeSecureOne",
     description: "Learn more about our mission, values, and the elite team behind WeSecureOne.",

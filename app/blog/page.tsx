@@ -8,6 +8,9 @@ import { ArrowRight, Calendar, Clock } from "lucide-react"
 export const metadata = {
   title: "Cybersecurity Blog & Insights | WeSecureOne",
   description: "Read expert insights, threat intelligence reports, and guides on Zero Trust, Cloud Security, and Ransomware defense.",
+  alternates: {
+    canonical: "/blog",
+  },
   openGraph: {
     title: "Cybersecurity Blog & Insights | WeSecureOne",
     description: "Read expert insights, threat intelligence reports, and guides on Zero Trust, Cloud Security, and Ransomware defense.",

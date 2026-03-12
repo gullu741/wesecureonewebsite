@@ -8,7 +8,10 @@ import { Toaster } from '@/components/ui/toaster'
 
 const inter = Inter({ subsets: ['latin'] })
 
+const baseUrl = 'https://wesecureone.com';
+
 export const metadata: Metadata = {
+  metadataBase: new URL(baseUrl),
   title: {
     default: 'WeSecureOne | Elite Cybersecurity Solutions',
     template: '%s | WeSecureOne'
@@ -18,10 +21,13 @@ export const metadata: Metadata = {
   authors: [{ name: 'WeSecureOne' }],
   creator: 'WeSecureOne',
   publisher: 'WeSecureOne',
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://wesecureone.example.com/',
+    url: baseUrl,
     title: 'WeSecureOne | Elite Cybersecurity Solutions',
     description: 'Offensive Security, MDR, and Compliance — Delivered. Protect your enterprise from modern cyber threats with our expert team.',
     siteName: 'WeSecureOne',
@@ -54,6 +60,23 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
           enableSystem
           disableTransitionOnChange
         >
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "WeSecureOne",
+                "url": "https://wesecureone.com",
+                "logo": "https://wesecureone.com/logo.png",
+                "sameAs": [
+                  "https://twitter.com/wesecureone",
+                  "https://linkedin.com/company/wesecureone"
+                ],
+                "description": "Offensive Security, MDR, and Compliance — Delivered."
+              })
+            }}
+          />
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />

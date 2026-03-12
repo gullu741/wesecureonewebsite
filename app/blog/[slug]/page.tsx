@@ -22,6 +22,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
       title: `${post.title} | WeSecureOne Blog`,
       description: post.description,
+      alternates: {
+        canonical: `/blog/${resolvedParams.slug}`,
+      },
     }
   } catch (e) {
     return { title: "Post Not Found" }

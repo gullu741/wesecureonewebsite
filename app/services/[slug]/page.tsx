@@ -20,6 +20,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${service.title} | WeSecureOne`,
     description: service.shortDescription,
+    alternates: {
+      canonical: `/services/${resolvedParams.slug}`,
+    },
   }
 }
 
