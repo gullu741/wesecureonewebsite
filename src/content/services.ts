@@ -1,6 +1,7 @@
 export interface Service {
   slug: string;
   title: string;
+  category: string;
   shortDescription: string;
   description: string;
   problemsSolved: string[];
@@ -9,6 +10,7 @@ export interface Service {
   sampleTimeline: string;
   faqs: { question: string; answer: string }[];
 }
+
 
 import servicesData from '../data/services.json';
 
