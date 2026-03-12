@@ -97,10 +97,7 @@ export function ServicesMenu() {
                     className="group rounded-md px-2 py-1.5 transition-colors hover:bg-primary/8"
                   >
                     <div className="text-sm font-medium text-foreground group-hover:text-primary">
-                      {service.title}
-                    </div>
-                    <div className="mt-0.5 line-clamp-1 text-xs text-muted-foreground">
-                      {service.shortDescription}
+                      {service.shortName}
                     </div>
                   </Link>
                 ))}

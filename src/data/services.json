@@ -2,6 +2,7 @@
   {
     "slug": "managed-detection-and-response",
     "title": "Managed Detection & Response (MDR)",
+    "shortName": "MDR",
     "shortDescription": "24/7 continuous monitoring, threat hunting, and incident response.",
     "description": "Our MDR service provides round-the-clock security monitoring and advanced threat detection to identify and neutralize cyber threats before they impact your business.",
     "problemsSolved": [
@@ -43,6 +44,7 @@
   {
     "slug": "penetration-testing",
     "title": "Penetration Testing",
+    "shortName": "Pen Testing",
     "shortDescription": "Identify and exploit vulnerabilities before attackers do.",
     "description": "Our ethical hackers simulate real-world cyber attacks to uncover weaknesses in your networks, applications, and physical security.",
     "problemsSolved": [
@@ -84,6 +86,7 @@
   {
     "slug": "vulnerability-management",
     "title": "Vulnerability Management",
+    "shortName": "Vulnerability Mgmt",
     "shortDescription": "Continuous identification and prioritization of security flaws.",
     "description": "We help you stay ahead of emerging threats by continuously scanning your environment, prioritizing vulnerabilities based on risk, and guiding remediation efforts.",
     "problemsSolved": [
@@ -125,6 +128,7 @@
   {
     "slug": "cloud-security",
     "title": "Cloud Security Architecture",
+    "shortName": "Cloud Security",
     "shortDescription": "Secure your AWS, Azure, and GCP environments.",
     "description": "Ensure your cloud infrastructure is built securely from the ground up, with proper identity management, network segmentation, and data protection.",
     "problemsSolved": [
@@ -166,6 +170,7 @@
   {
     "slug": "incident-response",
     "title": "Digital Forensics & Incident Response",
+    "shortName": "Incident Response",
     "shortDescription": "Rapid response to contain and recover from cyber attacks.",
     "description": "When a breach occurs, our DFIR team acts quickly to contain the threat, investigate the root cause, and restore your operations securely.",
     "problemsSolved": [
@@ -207,6 +212,7 @@
   {
     "slug": "compliance-advisory",
     "title": "Security & Compliance Advisory",
+    "shortName": "Compliance Advisory",
     "shortDescription": "Navigate complex regulatory landscapes (SOC2, HIPAA, PCI-DSS).",
     "description": "We guide organizations through the complexities of industry regulations, helping you achieve and maintain compliance while improving your overall security posture.",
     "problemsSolved": [
@@ -248,6 +254,7 @@
   {
     "slug": "web-development",
     "title": "Web Development & Websites",
+    "shortName": "Web Development",
     "shortDescription": "Custom web development and website delivery for scalable products.",
     "description": "We build scalable, high-performance websites and web applications tailored to your business needs, utilizing modern frameworks and best practices to ensure secure and robust delivery.",
     "problemsSolved": [
@@ -289,6 +296,7 @@
   {
     "slug": "mobile-app-development",
     "title": "Mobile App Development",
+    "shortName": "Mobile Apps",
     "shortDescription": "Native and cross-platform iOS and Android apps built for performance.",
     "description": "Our team delivers seamless mobile experiences across iOS and Android. Whether native or cross-platform, we focus on performance, security, and exceptional user experience.",
     "problemsSolved": [
@@ -330,6 +338,7 @@
   {
     "slug": "ecommerce-development",
     "title": "Ecommerce Development",
+    "shortName": "Ecommerce",
     "shortDescription": "High-converting storefronts, integrations, and growth-ready commerce stacks.",
     "description": "We develop secure and scalable ecommerce platforms designed to maximize conversions. From custom storefronts to complex backend integrations, we build growth-ready digital commerce solutions.",
     "problemsSolved": [
@@ -371,6 +380,7 @@
   {
     "slug": "ai-intelligent-automation",
     "title": "AI & Intelligent Automation",
+    "shortName": "AI & Automation",
     "shortDescription": "Transform your data into automated workflows and beautiful dashboards.",
     "description": "Leverage our AI-powered enterprise platform to streamline operations, visualize data, and build intelligent visual workflows. We help businesses automate routine tasks and unlock powerful insights for decision-making.",
     "problemsSolved": [
@@ -412,6 +422,7 @@
   {
     "slug": "api-development",
     "title": "API & Headless Development",
+    "shortName": "APIs & Headless",
     "shortDescription": "Secure APIs and composable, fast web experiences.",
     "description": "We architect and build secure APIs that power modern products and enable headless web development. By decoupling the frontend and backend, we deliver composable, blazing-fast, and SEO-ready digital experiences.",
     "problemsSolved": [
@@ -453,6 +464,7 @@
   {
     "slug": "headless-web-development",
     "title": "Headless Web Development",
+    "shortName": "Headless Web",
     "shortDescription": "Composable, blazing-fast, SEO-ready web experiences with decoupled architecture.",
     "description": "We build modern headless web applications that decouple the frontend from the backend, enabling teams to ship faster, customize deeply, and publish content across web, mobile, and IoT simultaneously. Powered by Next.js, React, and headless CMS platforms with CDN edge distribution.",
     "problemsSolved": [
@@ -499,6 +511,7 @@
   {
     "slug": "shopify-development",
     "title": "Shopify & Shopify Plus Development",
+    "shortName": "Shopify Dev",
     "shortDescription": "Fully customized Shopify stores with advanced features, apps, and internationalization.",
     "description": "We build and customize Shopify and Shopify Plus storefronts tailored to your brand and operations. From custom theme development to multi-currency internationalization and bespoke Shopify app integrations, we maximize your commerce performance on the world's leading platform.",
     "problemsSolved": [
@@ -545,6 +558,7 @@
   {
     "slug": "woocommerce-development",
     "title": "WooCommerce Development",
+    "shortName": "WooCommerce",
     "shortDescription": "WordPress-powered ecommerce with unlimited customization, subscriptions, and memberships.",
     "description": "We build powerful WooCommerce stores on WordPress that offer complete ownership and limitless flexibility. From custom plugin development and payment gateway integration to subscription and membership sites, we engineer WooCommerce solutions that scale with your business.",
     "problemsSolved": [
@@ -591,6 +605,7 @@
   {
     "slug": "native-ios-development",
     "title": "Native iOS Development",
+    "shortName": "iOS Dev",
     "shortDescription": "Swift and Objective-C apps optimized for iPhone and iPad with full App Store submission.",
     "description": "We develop native iOS applications using Swift and UIKit/SwiftUI, delivering platform-specific optimization that cross-platform frameworks simply cannot match. From push notifications and biometric authentication to deep iOS SDK integrations and App Store submission, we build polished, high-performance iPhone and iPad apps.",
     "problemsSolved": [
@@ -637,6 +652,7 @@
   {
     "slug": "native-android-development",
     "title": "Native Android Development",
+    "shortName": "Android Dev",
     "shortDescription": "Kotlin and Java apps for the Android ecosystem with Google Play Store deployment.",
     "description": "We develop native Android applications using Kotlin and Java with Material Design, delivering optimized performance across the Android device ecosystem. From Firebase integration and Google Play Store deployment to Android-specific hardware integrations, we build reliable, scalable Android apps.",
     "problemsSolved": [
@@ -683,6 +699,7 @@
   {
     "slug": "launch-pods",
     "title": "Launch Pods — Sprint-Based Delivery",
+    "shortName": "Launch Pods",
     "shortDescription": "Cross-functional squads that ship a scoped initiative in 8–12 weeks.",
     "description": "Launch Pods are focused, cross-functional delivery squads assembled to ship a specific initiative — whether that's an MVP, a product feature, or a digital transformation module — within a fixed 8–12 week sprint. Each pod includes design, engineering, and QA aligned to your goals from day one.",
     "problemsSolved": [
@@ -729,6 +746,7 @@
   {
     "slug": "managed-services",
     "title": "Managed Services & SLA Operations",
+    "shortName": "Managed Services",
     "shortDescription": "We operate your integrations, automations, and data pipelines with defined SLAs.",
     "description": "Our Managed Services team takes ongoing ownership of your critical digital infrastructure — integrations, automation workflows, data pipelines, and AI assistants — operating them with shared SLAs, proactive monitoring, and continuous improvement. You focus on your business while we ensure your systems run flawlessly.",
     "problemsSolved": [
@@ -775,6 +793,7 @@
   {
     "slug": "enablement-advisory",
     "title": "Enablement & Advisory",
+    "shortName": "Enablement",
     "shortDescription": "Architecture reviews, roadmap planning, and executive coaching for your internal teams.",
     "description": "Our Enablement & Advisory service layers strategic expertise directly onto your internal teams. We conduct architecture reviews, build technology roadmaps, and provide executive coaching to help your leaders make informed technology decisions and accelerate digital transformation — without replacing your team.",
     "problemsSolved": [
@@ -821,6 +840,7 @@
   {
     "slug": "industry-solutions",
     "title": "Industry Solutions for Enterprise Automation",
+    "shortName": "Industry Solutions",
     "shortDescription": "Proven automation blueprints across 10+ industries, from healthcare to logistics.",
     "description": "We deliver pre-built industry blueprints and tailored implementations on top of our AI-powered enterprise platform. Whether you operate in government, manufacturing, retail, healthcare, or financial services, we bring proven playbooks, expert implementation, and measurable outcomes — from discovery to full rollout in as few as 12 weeks.",
     "problemsSolved": [
@@ -867,6 +887,7 @@
   {
     "slug": "smart-tourism",
     "title": "Smart Tourism & Digital Heritage Solutions",
+    "shortName": "Smart Tourism",
     "shortDescription": "Destination intelligence, AI content, and accessible digital experiences for tourism boards.",
     "description": "We build complete digital tourism platforms for destinations, municipalities, and cultural heritage sites. Our solutions include mobile-first apps, AI-powered multilingual content, connected open data integrations, gamification, and WCAG 2.1 AA accessibility — helping tourism boards create immersive, inclusive visitor experiences.",
     "problemsSolved": [
@@ -914,6 +935,7 @@
   {
     "slug": "government-solutions",
     "title": "Government & Public Sector Solutions",
+    "shortName": "Government",
     "shortDescription": "Digital permitting, licensing, and constituent care for modern government services.",
     "description": "We modernize public sector operations with secure, compliant digital platforms for permitting, licensing, citizen services, and inter-agency data sharing. Our government solutions are built to meet WCAG accessibility standards, privacy regulations, and the demanding security requirements of public sector IT.",
     "problemsSolved": [
@@ -960,6 +982,7 @@
   {
     "slug": "healthcare-solutions",
     "title": "Healthcare Solutions",
+    "shortName": "Healthcare",
     "shortDescription": "Unified care delivery platforms with PHI-grade security and compliance.",
     "description": "We build healthcare technology platforms that modernize care delivery, patient engagement, and clinical workflows. Every solution is built with PHI-grade security, HIPAA/PIPEDA compliance, and seamless integration with existing EHR and practice management systems.",
     "problemsSolved": [
@@ -1006,6 +1029,7 @@
   {
     "slug": "financial-solutions",
     "title": "Financial Solutions",
+    "shortName": "Financial",
     "shortDescription": "Digital workflows for banking, wealth management, and insurance operations.",
     "description": "We build secure, scalable financial technology platforms that modernize workflows across banking, wealth management, and insurance. From automated client onboarding to compliance document management and real-time reporting dashboards, our solutions are built to meet the strict regulatory and security demands of financial services.",
     "problemsSolved": [
@@ -1052,6 +1076,7 @@
   {
     "slug": "consulting",
     "title": "Digital Strategy & Consulting",
+    "shortName": "Digital Strategy",
     "shortDescription": "Consulting that delivers value, not slide decks — strategy aligned to measurable outcomes.",
     "description": "Our embedded experts assess, design, and govern your most critical digital programs. We align technology investments with business goals, identify high-impact AI and automation opportunities, and build the governance and architecture to scale change safely. Every engagement ends with shipped software or a clear path to it.",
     "problemsSolved": [
@@ -1098,6 +1123,7 @@
   {
     "slug": "ai-consulting",
     "title": "Artificial Intelligence Consulting",
+    "shortName": "AI Consulting",
     "shortDescription": "Strategic AI guidance — from identifying automation opportunities to deploying intelligent systems.",
     "description": "We help organizations identify, pilot, and scale high-impact AI and machine learning use cases. From intelligent process automation and predictive analytics to AI-powered applications, we provide both the strategic roadmap and the engineering execution to turn AI concepts into shipped, production-grade solutions.",
     "problemsSolved": [
@@ -1144,6 +1170,7 @@
   {
     "slug": "cybersecurity-consulting",
     "title": "Cybersecurity Consulting",
+    "shortName": "Cybersecurity",
     "shortDescription": "Comprehensive security assessments, implementation, and ongoing protection strategies.",
     "description": "We help organizations strengthen their security posture through thorough assessments, implementation of robust controls, and ongoing strategic guidance. From penetration testing and vulnerability scanning to firewall configuration and access control policy design, we build comprehensive defenses tailored to your threat landscape.",
     "problemsSolved": [
@@ -1190,6 +1217,7 @@
   {
     "slug": "open-data",
     "title": "Open Data Liberation & Publishing",
+    "shortName": "Open Data",
     "shortDescription": "Plan and publish open data programs with governance, standards, and discoverability.",
     "description": "We help governments, research institutions, and corporations extract, clean, standardize, and publish data as open data initiatives. From building public-facing open data portals to governance frameworks and CKAN/DCAT compliance, we unlock the value of your data for transparency, innovation, and public benefit.",
     "problemsSolved": [
@@ -1236,6 +1264,7 @@
   {
     "slug": "digital-strategy",
     "title": "Digital Strategy & Platform Planning",
+    "shortName": "Platform Planning",
     "shortDescription": "Roadmaps, vendor selection, and investment priorities aligned to measurable business outcomes.",
     "description": "We help organizations navigate critical platform decisions with strategic guidance. Through platform assessments, build vs. buy analyses, vendor evaluations, and change management planning, we ensure that every technology investment accelerates value, reduces risk, and supports long-term scalability.",
     "problemsSolved": [
@@ -1282,6 +1311,7 @@
   {
     "slug": "digital-transformation",
     "title": "Digital Transformation",
+    "shortName": "Digital Transformation",
     "shortDescription": "End-to-end transformation services — from strategy through implementation and adoption.",
     "description": "We guide organizations through complete digital transformations — redesigning processes, replacing legacy systems, and building new digital capabilities from the ground up. Our approach combines strategic consulting, agile software delivery, and change management to ensure technology investments translate into lasting organizational change.",
     "problemsSolved": [
@@ -1329,6 +1359,7 @@
   {
     "slug": "platform-implementation",
     "title": "Platform Implementation",
+    "shortName": "Platform Implementation",
     "shortDescription": "Expert rollout, configuration, data migration, and change management for fast adoption.",
     "description": "Our implementation specialists ensure your platform goes live on time and on budget, with teams that are ready to use it. From discovery and configuration through data migration and launch, we follow a proven delivery cadence with 4.9/5 client satisfaction — and we don't leave until you're confident.",
     "problemsSolved": [
@@ -1376,6 +1407,7 @@
   {
     "slug": "custom-integration",
     "title": "Custom Integration",
+    "shortName": "Custom Integration",
     "shortDescription": "Connect your existing systems and tools with secure, reliable custom integrations.",
     "description": "We design and build robust custom integrations that connect your business-critical systems — whether that's your CRM, ERP, data warehouse, or third-party SaaS tools. Our integrations are built with security, reliability, and maintainability as core priorities, ensuring your data flows accurately and your teams work without friction.",
     "problemsSolved": [
@@ -1422,6 +1454,7 @@
   {
     "slug": "training-support",
     "title": "Training & Support",
+    "shortName": "Training & Support",
     "shortDescription": "Comprehensive enablement, role-based training, and responsive support for lasting adoption.",
     "description": "We enable your teams to fully adopt and master the platforms we build and implement. Through hands-on onboarding sessions, role-based training programs, comprehensive documentation, and multi-channel support (email, live chat, priority), we ensure your investment in technology translates into real productivity gains.",
     "problemsSolved": [
@@ -1468,6 +1501,7 @@
   {
     "slug": "maintenance-updates",
     "title": "Maintenance & Updates",
+    "shortName": "Maintenance",
     "shortDescription": "Proactive monitoring, security updates, and continuous enhancements to keep systems stable.",
     "description": "We keep your platforms running at peak performance with proactive monitoring, regular security updates, performance tuning, and ongoing enhancements. Our maintenance plans offer 24/7 uptime monitoring, 99.95% SLA, and a 12-hour response window for critical issues — so you can focus on your business, not your infrastructure.",
     "problemsSolved": [

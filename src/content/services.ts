@@ -1,6 +1,7 @@
 export interface Service {
   slug: string;
   title: string;
+  shortName: string;
   category: string;
   shortDescription: string;
   description: string;
