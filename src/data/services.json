@@ -185,5 +185,419 @@
     "faqs": [
       { "question": "Why choose headless?", "answer": "Headless allows for greater flexibility, faster performance, and the ability to seamlessly deliver content across multiple platforms." }
     ]
+  },
+  {
+    "slug": "headless-web-development",
+    "title": "Headless Web Development",
+    "shortDescription": "Composable, blazing-fast, SEO-ready web experiences with decoupled architecture.",
+    "description": "We build modern headless web applications that decouple the frontend from the backend, enabling teams to ship faster, customize deeply, and publish content across web, mobile, and IoT simultaneously. Powered by Next.js, React, and headless CMS platforms with CDN edge distribution.",
+    "problemsSolved": ["Slow monolithic CMS performance", "Inability to publish across multiple channels", "Server-side security vulnerabilities"],
+    "deliverables": ["Next.js / React Frontend", "Headless CMS Integration", "CDN Edge Deployment", "Static Site Generation (SSG/ISR)"],
+    "process": [
+      { "step": 1, "title": "Architecture Design", "description": "Define the decoupled frontend/backend structure and select the headless CMS." },
+      { "step": 2, "title": "Build & Integrate", "description": "Develop the Next.js frontend and wire it to content APIs." },
+      { "step": 3, "title": "Deploy & Optimize", "description": "Deploy to CDN edge with automated caching and performance tuning." }
+    ],
+    "sampleTimeline": "6-12 weeks",
+    "faqs": [
+      { "question": "Do my teams need to be technical to update content?", "answer": "No. Headless CMS platforms like Contentful or Sanity provide non-technical editors with simple, intuitive interfaces." },
+      { "question": "Can I integrate my existing systems?", "answer": "Yes, the API-first architecture makes it straightforward to connect to existing ERPs, CRMs, and data sources." }
+    ]
+  },
+  {
+    "slug": "shopify-development",
+    "title": "Shopify & Shopify Plus Development",
+    "shortDescription": "Fully customized Shopify stores with advanced features, apps, and internationalization.",
+    "description": "We build and customize Shopify and Shopify Plus storefronts tailored to your brand and operations. From custom theme development to multi-currency internationalization and bespoke Shopify app integrations, we maximize your commerce performance on the world's leading platform.",
+    "problemsSolved": ["Generic or poorly performing Shopify themes", "Missing features requiring custom apps", "International expansion with multi-currency needs"],
+    "deliverables": ["Custom Shopify Theme", "App Integrations & Custom Apps", "Multi-Currency & Internationalization", "Shopify Plus Scripts & Flows"],
+    "process": [
+      { "step": 1, "title": "Discovery", "description": "Audit existing store, define conversion goals, and plan the technical architecture." },
+      { "step": 2, "title": "Design & Build", "description": "Develop custom Liquid theme, integrate apps, and implement advanced features." },
+      { "step": 3, "title": "Launch & Optimize", "description": "QA testing, performance optimization, and post-launch monitoring." }
+    ],
+    "sampleTimeline": "6-14 weeks",
+    "faqs": [
+      { "question": "Can you migrate my existing store to Shopify?", "answer": "Yes, we handle full store migrations including products, customer data, and order history with minimal disruption." },
+      { "question": "Do you support Shopify Plus?", "answer": "Absolutely. We are experienced with Shopify Plus-exclusive features including Scripts, Flows, and B2B features." }
+    ]
+  },
+  {
+    "slug": "woocommerce-development",
+    "title": "WooCommerce Development",
+    "shortDescription": "WordPress-powered ecommerce with unlimited customization, subscriptions, and memberships.",
+    "description": "We build powerful WooCommerce stores on WordPress that offer complete ownership and limitless flexibility. From custom plugin development and payment gateway integration to subscription and membership sites, we engineer WooCommerce solutions that scale with your business.",
+    "problemsSolved": ["Platform lock-in with proprietary ecommerce tools", "Need for subscription or membership business models", "Requirement for deep WordPress integration"],
+    "deliverables": ["Custom WooCommerce Theme", "Custom Plugin Development", "Payment Gateway Integration", "Subscription & Membership Setup"],
+    "process": [
+      { "step": 1, "title": "Requirements", "description": "Define product catalog, payment flows, and membership/subscription logic." },
+      { "step": 2, "title": "Development", "description": "Build custom theme and plugins, integrate gateways and third-party services." },
+      { "step": 3, "title": "Testing & Launch", "description": "End-to-end checkout testing, security hardening, and go-live." }
+    ],
+    "sampleTimeline": "8-16 weeks",
+    "faqs": [
+      { "question": "Can I run subscriptions on WooCommerce?", "answer": "Yes, we implement WooCommerce Subscriptions and custom subscription logic for recurring revenue models." },
+      { "question": "Is WooCommerce secure?", "answer": "With proper hardening, SSL, and regular updates, WooCommerce is highly secure. We include security configuration in every build." }
+    ]
+  },
+  {
+    "slug": "native-ios-development",
+    "title": "Native iOS Development",
+    "shortDescription": "Swift and Objective-C apps optimized for iPhone and iPad with full App Store submission.",
+    "description": "We develop native iOS applications using Swift and UIKit/SwiftUI, delivering platform-specific optimization that cross-platform frameworks simply cannot match. From push notifications and biometric authentication to deep iOS SDK integrations and App Store submission, we build polished, high-performance iPhone and iPad apps.",
+    "problemsSolved": ["Poor performance from cross-platform apps", "Need for deep iOS hardware integration", "App Store optimization and submission challenges"],
+    "deliverables": ["Native Swift iOS App", "SwiftUI / UIKit Interface", "Push Notifications & Biometric Auth", "App Store Submission & Optimization"],
+    "process": [
+      { "step": 1, "title": "Design", "description": "Create Apple HIG-compliant UI/UX designs and user flow prototypes." },
+      { "step": 2, "title": "Build", "description": "Develop in Swift with full iOS SDK integration and native performance." },
+      { "step": 3, "title": "Submit", "description": "QA testing on real devices, App Store review, and launch optimization." }
+    ],
+    "sampleTimeline": "10-18 weeks",
+    "faqs": [
+      { "question": "Do you handle the App Store submission?", "answer": "Yes, we manage the entire submission process including App Store Connect, metadata, screenshots, and review responses." },
+      { "question": "Can you integrate with Apple Pay or Sign in with Apple?", "answer": "Absolutely. We integrate all native Apple frameworks including Apple Pay, Sign in with Apple, and HealthKit." }
+    ]
+  },
+  {
+    "slug": "native-android-development",
+    "title": "Native Android Development",
+    "shortDescription": "Kotlin and Java apps for the Android ecosystem with Google Play Store deployment.",
+    "description": "We develop native Android applications using Kotlin and Java with Material Design, delivering optimized performance across the Android device ecosystem. From Firebase integration and Google Play Store deployment to Android-specific hardware integrations, we build reliable, scalable Android apps.",
+    "problemsSolved": ["Poor Android performance from generic cross-platform apps", "Need for Google ecosystem deep integrations (Firebase, Maps, Play)", "Google Play Store compliance and submission"],
+    "deliverables": ["Native Kotlin Android App", "Material Design Interface", "Firebase Integration", "Google Play Store Submission"],
+    "process": [
+      { "step": 1, "title": "Design", "description": "Create Material Design-compliant UI/UX and architecture planning." },
+      { "step": 2, "title": "Build", "description": "Develop in Kotlin with Android SDK, Firebase, and required integrations." },
+      { "step": 3, "title": "Submit", "description": "Device testing, Play Store submission, and post-launch support." }
+    ],
+    "sampleTimeline": "10-18 weeks",
+    "faqs": [
+      { "question": "Do you support all Android versions?", "answer": "We target a minimum API level that covers 95%+ of active Android devices, balancing feature availability and compatibility." },
+      { "question": "Can you integrate Google Maps and location services?", "answer": "Yes, we regularly integrate Google Maps SDK, Location APIs, and other Google Play Services into Android apps." }
+    ]
+  },
+  {
+    "slug": "launch-pods",
+    "title": "Launch Pods — Sprint-Based Delivery",
+    "shortDescription": "Cross-functional squads that ship a scoped initiative in 8–12 weeks.",
+    "description": "Launch Pods are focused, cross-functional delivery squads assembled to ship a specific initiative — whether that's an MVP, a product feature, or a digital transformation module — within a fixed 8–12 week sprint. Each pod includes design, engineering, and QA aligned to your goals from day one.",
+    "problemsSolved": ["Slow internal delivery cycles", "Lack of dedicated cross-functional capacity", "Need to ship a specific product or MVP quickly"],
+    "deliverables": ["Scoped MVP or Feature Release", "Sprint Reports & Demos", "Handoff Documentation", "Post-Launch Support Plan"],
+    "process": [
+      { "step": 1, "title": "Discovery & Alignment", "description": "Workshops to define scope, success criteria, and sprint architecture." },
+      { "step": 2, "title": "Sprint Delivery", "description": "Rapid iterative build cycles with weekly demos and stakeholder feedback." },
+      { "step": 3, "title": "Launch & Handoff", "description": "Go-live, documentation, and transition to your internal team or managed services." }
+    ],
+    "sampleTimeline": "8-12 weeks",
+    "faqs": [
+      { "question": "How fast can we start?", "answer": "Typically within 1-2 weeks after scoping and contract. We move fast." },
+      { "question": "What happens after the pod completes?", "answer": "We can transition to a Managed Services model or provide a full handoff to your internal team with documentation and training." }
+    ]
+  },
+  {
+    "slug": "managed-services",
+    "title": "Managed Services & SLA Operations",
+    "shortDescription": "We operate your integrations, automations, and data pipelines with defined SLAs.",
+    "description": "Our Managed Services team takes ongoing ownership of your critical digital infrastructure — integrations, automation workflows, data pipelines, and AI assistants — operating them with shared SLAs, proactive monitoring, and continuous improvement. You focus on your business while we ensure your systems run flawlessly.",
+    "problemsSolved": ["Internal team overloaded with operational burden", "Unreliable integrations and automations causing downtime", "No defined SLAs for critical business systems"],
+    "deliverables": ["SLA-Backed Operations", "Proactive Monitoring & Alerts", "Monthly Performance Reports", "Continuous Optimization"],
+    "process": [
+      { "step": 1, "title": "Onboarding", "description": "Audit existing systems, define SLAs, and establish monitoring baselines." },
+      { "step": 2, "title": "Operate", "description": "Run integrations, workflows, and pipelines with 24/7 monitoring and incident response." },
+      { "step": 3, "title": "Optimize", "description": "Monthly reviews, performance improvements, and proactive capacity planning." }
+    ],
+    "sampleTimeline": "Ongoing",
+    "faqs": [
+      { "question": "What SLAs do you offer?", "answer": "SLAs are defined per engagement based on business criticality, typically ranging from 99.5% to 99.99% uptime." },
+      { "question": "Can you take over systems we didn't build?", "answer": "Yes, we perform a technical onboarding audit to get up to speed on any existing infrastructure." }
+    ]
+  },
+  {
+    "slug": "enablement-advisory",
+    "title": "Enablement & Advisory",
+    "shortDescription": "Architecture reviews, roadmap planning, and executive coaching for your internal teams.",
+    "description": "Our Enablement & Advisory service layers strategic expertise directly onto your internal teams. We conduct architecture reviews, build technology roadmaps, and provide executive coaching to help your leaders make informed technology decisions and accelerate digital transformation — without replacing your team.",
+    "problemsSolved": ["Unclear or stagnant technology roadmap", "Internal teams lacking senior architectural guidance", "Executive uncertainty around build vs. buy decisions"],
+    "deliverables": ["Architecture Review Report", "Technology Roadmap", "Executive Coaching Sessions", "Build vs. Buy Analysis"],
+    "process": [
+      { "step": 1, "title": "Discovery", "description": "Stakeholder interviews and current-state technology audit." },
+      { "step": 2, "title": "Advisory", "description": "Deliver architecture recommendations and a prioritized roadmap." },
+      { "step": 3, "title": "Enablement", "description": "Ongoing coaching sessions and playbook creation to embed best practices." }
+    ],
+    "sampleTimeline": "4-8 weeks (initial engagement)",
+    "faqs": [
+      { "question": "Is this a consulting retainer?", "answer": "It can be. We offer both fixed-scope advisory engagements and ongoing monthly retainer models." },
+      { "question": "Do you work with non-technical executives?", "answer": "Absolutely. We translate complex technical decisions into clear business terms, so every stakeholder can participate confidently." }
+    ]
+  },
+  {
+    "slug": "industry-solutions",
+    "title": "Industry Solutions for Enterprise Automation",
+    "shortDescription": "Proven automation blueprints across 10+ industries, from healthcare to logistics.",
+    "description": "We deliver pre-built industry blueprints and tailored implementations on top of our AI-powered enterprise platform. Whether you operate in government, manufacturing, retail, healthcare, or financial services, we bring proven playbooks, expert implementation, and measurable outcomes — from discovery to full rollout in as few as 12 weeks.",
+    "problemsSolved": ["Lack of industry-specific digital solutions", "Long enterprise implementation timelines", "Difficulty scaling automation across departments"],
+    "deliverables": ["Industry Automation Blueprint", "Platform Configuration", "Pilot Program", "Enterprise Rollout Plan"],
+    "process": [
+      { "step": 1, "title": "Discovery", "description": "Understand your industry-specific workflows and pain points." },
+      { "step": 2, "title": "Blueprint Selection", "description": "Choose and configure the right industry solution blueprint." },
+      { "step": 3, "title": "Implementation", "description": "Deploy, train, and roll out to all teams with SLA-backed support." }
+    ],
+    "sampleTimeline": "8-12 weeks",
+    "faqs": [
+      { "question": "How do you tailor the platform to my industry?", "answer": "We use pre-built industry blueprints as a starting point, then customize workflows, data models, and integrations to your specific operations." },
+      { "question": "Can we start with a pilot before rolling out enterprise-wide?", "answer": "Yes, we always recommend starting with a scoped pilot to validate the solution before full deployment." }
+    ]
+  },
+  {
+    "slug": "smart-tourism",
+    "title": "Smart Tourism & Digital Heritage Solutions",
+    "shortDescription": "Destination intelligence, AI content, and accessible digital experiences for tourism boards.",
+    "description": "We build complete digital tourism platforms for destinations, municipalities, and cultural heritage sites. Our solutions include mobile-first apps, AI-powered multilingual content, connected open data integrations, gamification, and WCAG 2.1 AA accessibility — helping tourism boards create immersive, inclusive visitor experiences.",
+    "problemsSolved": ["Outdated or fragmented tourism information systems", "Inaccessibility for visitors with disabilities", "Inability to personalize visitor experiences at scale"],
+    "deliverables": ["Mobile Tourism App (PWA/Native)", "AI-Powered Multilingual Content", "Open Data Integration", "Multi-Site Management Dashboard", "Gamification & Citizen Participation"],
+    "process": [
+      { "step": 1, "title": "Destination Audit", "description": "Map existing data sources, attractions, and visitor touchpoints." },
+      { "step": 2, "title": "Platform Build", "description": "Develop mobile app, CMS, and AI content layers." },
+      { "step": 3, "title": "Launch & Promote", "description": "Go live with QR code integration, offline support, and ongoing content management." }
+    ],
+    "sampleTimeline": "12-20 weeks",
+    "faqs": [
+      { "question": "Can the platform work offline in areas with poor connectivity?", "answer": "Yes, our solutions include offline capabilities specifically designed for remote and rural tourism areas." },
+      { "question": "Can multiple municipalities share the same platform?", "answer": "Yes, our multi-site management layer allows coordinated tourism initiatives across multiple regions from a single platform." }
+    ]
+  },
+  {
+    "slug": "government-solutions",
+    "title": "Government & Public Sector Solutions",
+    "shortDescription": "Digital permitting, licensing, and constituent care for modern government services.",
+    "description": "We modernize public sector operations with secure, compliant digital platforms for permitting, licensing, citizen services, and inter-agency data sharing. Our government solutions are built to meet WCAG accessibility standards, privacy regulations, and the demanding security requirements of public sector IT.",
+    "problemsSolved": ["Manual paper-based permitting and licensing workflows", "Poor constituent digital experience", "Inter-agency data silos"],
+    "deliverables": ["Digital Permitting Portal", "Online Licensing System", "Constituent Self-Service Portal", "Open Data Publishing"],
+    "process": [
+      { "step": 1, "title": "Requirements & Compliance", "description": "Map regulatory requirements and accessibility standards." },
+      { "step": 2, "title": "Build & Integrate", "description": "Develop secure portals integrated with existing government systems." },
+      { "step": 3, "title": "Deploy & Train", "description": "Go live with staff training and constituent onboarding." }
+    ],
+    "sampleTimeline": "16-26 weeks",
+    "faqs": [
+      { "question": "Are your solutions compliant with government privacy regulations?", "answer": "Yes, we design all government solutions to meet relevant privacy and data protection legislation including PIPEDA and provincial equivalents." },
+      { "question": "Do you support accessibility requirements?", "answer": "Absolutely. All public-facing platforms are built to WCAG 2.1 AA standards as a minimum." }
+    ]
+  },
+  {
+    "slug": "healthcare-solutions",
+    "title": "Healthcare Solutions",
+    "shortDescription": "Unified care delivery platforms with PHI-grade security and compliance.",
+    "description": "We build healthcare technology platforms that modernize care delivery, patient engagement, and clinical workflows. Every solution is built with PHI-grade security, HIPAA/PIPEDA compliance, and seamless integration with existing EHR and practice management systems.",
+    "problemsSolved": ["Fragmented patient data across systems", "Lack of secure patient communication tools", "Slow and manual clinical workflows"],
+    "deliverables": ["Patient Portal", "EHR Integration", "Secure Messaging Platform", "Clinical Workflow Automation"],
+    "process": [
+      { "step": 1, "title": "Compliance Mapping", "description": "Define HIPAA/PIPEDA requirements and security architecture." },
+      { "step": 2, "title": "Build & Integrate", "description": "Develop platform with EHR integrations and end-to-end encryption." },
+      { "step": 3, "title": "Launch & Train", "description": "Roll out to clinical staff with training and change management support." }
+    ],
+    "sampleTimeline": "14-24 weeks",
+    "faqs": [
+      { "question": "Are your solutions HIPAA compliant?", "answer": "Yes, all healthcare platforms we build are architected with HIPAA compliance from the ground up, including PHI encryption, audit logs, and access controls." },
+      { "question": "Can you integrate with our existing EHR?", "answer": "Yes, we have experience integrating with major EHR platforms using HL7 FHIR and proprietary APIs." }
+    ]
+  },
+  {
+    "slug": "financial-solutions",
+    "title": "Financial Solutions",
+    "shortDescription": "Digital workflows for banking, wealth management, and insurance operations.",
+    "description": "We build secure, scalable financial technology platforms that modernize workflows across banking, wealth management, and insurance. From automated client onboarding to compliance document management and real-time reporting dashboards, our solutions are built to meet the strict regulatory and security demands of financial services.",
+    "problemsSolved": ["Manual client onboarding and KYC processes", "Regulatory compliance reporting burden", "Outdated legacy banking interfaces"],
+    "deliverables": ["Digital Client Onboarding", "Compliance Workflow Automation", "Financial Reporting Dashboard", "Secure Document Management"],
+    "process": [
+      { "step": 1, "title": "Regulatory Assessment", "description": "Identify applicable financial regulations and security requirements." },
+      { "step": 2, "title": "Build & Secure", "description": "Develop platform with bank-grade encryption and audit trails." },
+      { "step": 3, "title": "Deploy & Validate", "description": "Go live with compliance validation and staff training." }
+    ],
+    "sampleTimeline": "16-28 weeks",
+    "faqs": [
+      { "question": "Are your financial platforms SOC 2 compliant?", "answer": "Yes, we build to SOC 2 Type II standards and can support additional certifications like ISO 27001 depending on your requirements." },
+      { "question": "Can you work with our legacy core banking systems?", "answer": "Yes, we specialize in building modern interfaces and integration layers on top of legacy banking infrastructure without requiring a full system replacement." }
+    ]
+  },
+  {
+    "slug": "consulting",
+    "title": "Digital Strategy & Consulting",
+    "shortDescription": "Consulting that delivers value, not slide decks — strategy aligned to measurable outcomes.",
+    "description": "Our embedded experts assess, design, and govern your most critical digital programs. We align technology investments with business goals, identify high-impact AI and automation opportunities, and build the governance and architecture to scale change safely. Every engagement ends with shipped software or a clear path to it.",
+    "problemsSolved": ["Technology investments misaligned with business outcomes", "No clear digital transformation roadmap", "Difficulty evaluating build vs. buy decisions"],
+    "deliverables": ["Strategic Assessment Report", "Digital Roadmap", "Architecture Recommendations", "Vendor Selection Guidance"],
+    "process": [
+      { "step": 1, "title": "Discovery", "description": "Stakeholder interviews, system audits, and success criteria definition." },
+      { "step": 2, "title": "Strategy", "description": "Deliver a prioritized roadmap and architecture recommendations." },
+      { "step": 3, "title": "Governance", "description": "Establish governance frameworks and transition to implementation." }
+    ],
+    "sampleTimeline": "4-8 weeks",
+    "faqs": [
+      { "question": "Do you provide both technical and business guidance?", "answer": "Yes. Our consultants operate at the intersection of technology and business, translating technical architecture into business value and vice versa." },
+      { "question": "Can you help us move from strategy to implementation?", "answer": "Absolutely. Consulting engagements often transition directly into a Launch Pod or Managed Services engagement." }
+    ]
+  },
+  {
+    "slug": "ai-consulting",
+    "title": "Artificial Intelligence Consulting",
+    "shortDescription": "Strategic AI guidance — from identifying automation opportunities to deploying intelligent systems.",
+    "description": "We help organizations identify, pilot, and scale high-impact AI and machine learning use cases. From intelligent process automation and predictive analytics to AI-powered applications, we provide both the strategic roadmap and the engineering execution to turn AI concepts into shipped, production-grade solutions.",
+    "problemsSolved": ["Uncertainty about where AI can create value", "Failed AI pilots that never reach production", "Lack of internal AI expertise for implementation"],
+    "deliverables": ["AI Use Case Assessment", "Pilot Program", "ML Model Development", "AI Integration into Existing Systems"],
+    "process": [
+      { "step": 1, "title": "Opportunity Mapping", "description": "Identify and prioritize high-value AI use cases across your operations." },
+      { "step": 2, "title": "Pilot", "description": "Build and validate a focused AI proof-of-concept with clear success metrics." },
+      { "step": 3, "title": "Scale", "description": "Productionize and integrate the AI solution into your existing workflows." }
+    ],
+    "sampleTimeline": "6-14 weeks",
+    "faqs": [
+      { "question": "Do we need large amounts of data to get started?", "answer": "Not always. Many impactful AI solutions can be built with moderate data. We assess your data maturity and recommend the right approach." },
+      { "question": "Can you build custom ML models?", "answer": "Yes, we build custom machine learning models as well as integrate pre-trained models from providers like OpenAI, Google, and Anthropic." }
+    ]
+  },
+  {
+    "slug": "cybersecurity-consulting",
+    "title": "Cybersecurity Consulting",
+    "shortDescription": "Comprehensive security assessments, implementation, and ongoing protection strategies.",
+    "description": "We help organizations strengthen their security posture through thorough assessments, implementation of robust controls, and ongoing strategic guidance. From penetration testing and vulnerability scanning to firewall configuration and access control policy design, we build comprehensive defenses tailored to your threat landscape.",
+    "problemsSolved": ["Unknown vulnerabilities in critical systems", "Inconsistent or absent security policies", "Reactive rather than proactive security posture"],
+    "deliverables": ["Security Assessment Report", "Risk Analysis", "Security Policy Documentation", "Implementation of Controls (Firewalls, IDS, Access)"],
+    "process": [
+      { "step": 1, "title": "Assessment", "description": "Penetration testing, vulnerability scanning, and risk analysis." },
+      { "step": 2, "title": "Implementation", "description": "Deploy security controls including firewalls, IDS, and access policies." },
+      { "step": 3, "title": "Monitoring", "description": "Establish ongoing monitoring and incident response procedures." }
+    ],
+    "sampleTimeline": "4-12 weeks",
+    "faqs": [
+      { "question": "Do you offer ongoing security monitoring?", "answer": "Yes, we can transition from a consulting engagement to a Managed Services model for continuous monitoring and response." },
+      { "question": "What compliance frameworks do you support?", "answer": "We support SOC 2, ISO 27001, HIPAA, PCI-DSS, NIST, and sector-specific regulatory frameworks." }
+    ]
+  },
+  {
+    "slug": "open-data",
+    "title": "Open Data Liberation & Publishing",
+    "shortDescription": "Plan and publish open data programs with governance, standards, and discoverability.",
+    "description": "We help governments, research institutions, and corporations extract, clean, standardize, and publish data as open data initiatives. From building public-facing open data portals to governance frameworks and CKAN/DCAT compliance, we unlock the value of your data for transparency, innovation, and public benefit.",
+    "problemsSolved": ["Data locked in inaccessible legacy systems", "Lack of open data governance frameworks", "No public portal for data discoverability"],
+    "deliverables": ["Open Data Portal", "Data Liberation & Cleaning Pipeline", "Governance Framework", "DCAT/CKAN Compliance"],
+    "process": [
+      { "step": 1, "title": "Data Audit", "description": "Identify, classify, and assess data sources for public publication readiness." },
+      { "step": 2, "title": "Clean & Standardize", "description": "Extract, transform, and format data to open standards." },
+      { "step": 3, "title": "Publish & Govern", "description": "Launch the open data portal with governance policies and ongoing management." }
+    ],
+    "sampleTimeline": "8-16 weeks",
+    "faqs": [
+      { "question": "What is open data liberation?", "answer": "It is the process of extracting data from siloed systems, cleaning and standardizing it, and publishing it under an open license for public access and reuse." },
+      { "question": "Do you build open data portals?", "answer": "Yes, we build fully custom portals as well as configure established platforms like CKAN to host and manage your open datasets." }
+    ]
+  },
+  {
+    "slug": "digital-strategy",
+    "title": "Digital Strategy & Platform Planning",
+    "shortDescription": "Roadmaps, vendor selection, and investment priorities aligned to measurable business outcomes.",
+    "description": "We help organizations navigate critical platform decisions with strategic guidance. Through platform assessments, build vs. buy analyses, vendor evaluations, and change management planning, we ensure that every technology investment accelerates value, reduces risk, and supports long-term scalability.",
+    "problemsSolved": ["Unclear technology roadmap", "Poor vendor selection decisions", "Digital initiatives that fail to deliver ROI"],
+    "deliverables": ["Platform Assessment Report", "Technology Roadmap", "Build vs. Buy Analysis", "Vendor Evaluation & RFP Support"],
+    "process": [
+      { "step": 1, "title": "Assessment", "description": "Evaluate current platforms, capabilities, and strategic gaps." },
+      { "step": 2, "title": "Roadmap", "description": "Deliver a prioritized, time-boxed digital strategy and investment roadmap." },
+      { "step": 3, "title": "Vendor Selection", "description": "Support RFP processes and vendor evaluation with objective scoring frameworks." }
+    ],
+    "sampleTimeline": "6-8 weeks",
+    "faqs": [
+      { "question": "Do you help build the roadmap after the assessment?", "answer": "Yes, our assessments always conclude with a concrete, actionable roadmap with prioritized initiatives and investment guidance." },
+      { "question": "Can you support vendor evaluation or RFP processes?", "answer": "Yes, we provide objective vendor scoring frameworks and can run or participate in the full RFP process on your behalf." }
+    ]
+  },
+  {
+    "slug": "digital-transformation",
+    "title": "Digital Transformation",
+    "shortDescription": "End-to-end transformation services — from strategy through implementation and adoption.",
+    "description": "We guide organizations through complete digital transformations — redesigning processes, replacing legacy systems, and building new digital capabilities from the ground up. Our approach combines strategic consulting, agile software delivery, and change management to ensure technology investments translate into lasting organizational change.",
+    "problemsSolved": ["Legacy systems blocking business agility", "Digital initiatives that fail at the adoption stage", "Lack of organizational alignment on transformation goals"],
+    "deliverables": ["Transformation Roadmap", "Legacy System Migration", "New Digital Platform Build", "Change Management Plan", "Training & Adoption Program"],
+    "process": [
+      { "step": 1, "title": "Discovery & Vision", "description": "Define the target state and transformation objectives with stakeholders." },
+      { "step": 2, "title": "Build & Migrate", "description": "Develop new systems and migrate from legacy platforms in phases." },
+      { "step": 3, "title": "Adopt & Scale", "description": "Drive adoption through training, change management, and continuous improvement." }
+    ],
+    "sampleTimeline": "6-24 months (phased)",
+    "faqs": [
+      { "question": "How do you manage the risk of large transformation programs?", "answer": "We use a phased approach with clear milestones and pilot deployments, reducing risk and allowing course correction at each stage." },
+      { "question": "Do you handle change management as part of transformation?", "answer": "Yes, change management is a core component of every transformation engagement, not an afterthought." }
+    ]
+  },
+  {
+    "slug": "platform-implementation",
+    "title": "Platform Implementation",
+    "shortDescription": "Expert rollout, configuration, data migration, and change management for fast adoption.",
+    "description": "Our implementation specialists ensure your platform goes live on time and on budget, with teams that are ready to use it. From discovery and configuration through data migration and launch, we follow a proven delivery cadence with 4.9/5 client satisfaction — and we don't leave until you're confident.",
+    "problemsSolved": ["Slow or failed platform rollouts", "Data migration complexity and risk", "Low adoption after go-live"],
+    "deliverables": ["Implementation Plan", "Platform Configuration", "Data Migration", "Change Management", "Go-Live Support"],
+    "process": [
+      { "step": 1, "title": "Discovery", "description": "Scope requirements, map workflows, and define success criteria." },
+      { "step": 2, "title": "Configuration & Migration", "description": "Configure the platform and migrate data from legacy systems." },
+      { "step": 3, "title": "Launch", "description": "Go live with end-user training and hypercare support." }
+    ],
+    "sampleTimeline": "2-12 weeks",
+    "faqs": [
+      { "question": "Can you migrate data from our existing systems?", "answer": "Yes, data migration is a core part of our implementation service. We handle extraction, transformation, validation, and loading." },
+      { "question": "What support do you offer after launch?", "answer": "We provide a hypercare period post-launch and can transition to ongoing Managed Services or Training & Support packages." }
+    ]
+  },
+  {
+    "slug": "custom-integration",
+    "title": "Custom Integration",
+    "shortDescription": "Connect your existing systems and tools with secure, reliable custom integrations.",
+    "description": "We design and build robust custom integrations that connect your business-critical systems — whether that's your CRM, ERP, data warehouse, or third-party SaaS tools. Our integrations are built with security, reliability, and maintainability as core priorities, ensuring your data flows accurately and your teams work without friction.",
+    "problemsSolved": ["Disconnected systems requiring manual data entry", "Brittle point-to-point integrations that break frequently", "Inability to get a unified view of operations"],
+    "deliverables": ["Integration Architecture Design", "API Connectors & Middleware", "Data Mapping & Transformation", "Monitoring & Alerting"],
+    "process": [
+      { "step": 1, "title": "Integration Mapping", "description": "Document all systems, data flows, and business logic requirements." },
+      { "step": 2, "title": "Build & Test", "description": "Develop integrations with full error handling, logging, and retry logic." },
+      { "step": 3, "title": "Deploy & Monitor", "description": "Go live with monitoring dashboards and alerting for integration health." }
+    ],
+    "sampleTimeline": "4-10 weeks",
+    "faqs": [
+      { "question": "Can you integrate with any system?", "answer": "If a system has an API or can export data, we can integrate with it. We have experience with hundreds of SaaS, ERP, CRM, and legacy platforms." },
+      { "question": "How do you ensure integration reliability?", "answer": "We build in retry logic, dead letter queues, monitoring dashboards, and alerting so you know immediately if anything goes wrong." }
+    ]
+  },
+  {
+    "slug": "training-support",
+    "title": "Training & Support",
+    "shortDescription": "Comprehensive enablement, role-based training, and responsive support for lasting adoption.",
+    "description": "We enable your teams to fully adopt and master the platforms we build and implement. Through hands-on onboarding sessions, role-based training programs, comprehensive documentation, and multi-channel support (email, live chat, priority), we ensure your investment in technology translates into real productivity gains.",
+    "problemsSolved": ["Low adoption of new platforms after launch", "Teams reverting to old manual workflows", "No single source of truth for documentation and training"],
+    "deliverables": ["Role-Based Training Program", "Onboarding Sessions", "Platform Documentation & Tutorials", "Email, Chat & Priority Support"],
+    "process": [
+      { "step": 1, "title": "Needs Assessment", "description": "Map user roles, workflows, and training gaps." },
+      { "step": 2, "title": "Training Delivery", "description": "Run live onboarding sessions and create self-service learning resources." },
+      { "step": 3, "title": "Ongoing Support", "description": "Provide responsive multi-channel support and continuous documentation updates." }
+    ],
+    "sampleTimeline": "Ongoing",
+    "faqs": [
+      { "question": "Who is the training designed for?", "answer": "Training is tailored to each user role — from end users and team managers to administrators and IT staff — ensuring everyone has what they need." },
+      { "question": "How fast can my team get onboarded?", "answer": "Most teams are fully operational within 1-2 weeks of their first training session, with ongoing resources available at any time." }
+    ]
+  },
+  {
+    "slug": "maintenance-updates",
+    "title": "Maintenance & Updates",
+    "shortDescription": "Proactive monitoring, security updates, and continuous enhancements to keep systems stable.",
+    "description": "We keep your platforms running at peak performance with proactive monitoring, regular security updates, performance tuning, and ongoing enhancements. Our maintenance plans offer 24/7 uptime monitoring, 99.95% SLA, and a 12-hour response window for critical issues — so you can focus on your business, not your infrastructure.",
+    "problemsSolved": ["Unplanned system outages causing business disruption", "Security vulnerabilities going unpatched", "Performance degradation over time without tuning"],
+    "deliverables": ["24/7 Uptime Monitoring", "Security Patch Management", "Performance Tuning", "Quarterly Enhancement Releases"],
+    "process": [
+      { "step": 1, "title": "Baseline", "description": "Establish monitoring baselines, SLA definitions, and escalation procedures." },
+      { "step": 2, "title": "Operate", "description": "Continuous monitoring, proactive patching, and regular health checks." },
+      { "step": 3, "title": "Improve", "description": "Quarterly reviews with performance reports and roadmap for enhancements." }
+    ],
+    "sampleTimeline": "Ongoing",
+    "faqs": [
+      { "question": "What does maintenance include?", "answer": "Security patches, dependency updates, uptime monitoring, performance tuning, bug fixes, and a regular health check cadence." },
+      { "question": "How often do you apply updates?", "answer": "Security patches are applied as soon as they are available. Feature and dependency updates follow a monthly or quarterly cadence depending on your plan." }
+    ]
   }
 ]
