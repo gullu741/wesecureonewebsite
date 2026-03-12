@@ -1,0 +1,31 @@
+---
+title: "Top 5 Cloud Security Misconfigurations in 2024"
+description: "Simple mistakes that led to the biggest data breaches this year, and how automation can fix them."
+date: "2024-08-05"
+author: "David Chen"
+tags: ["Cloud Security", "AWS", "Automation"]
+---
+
+# Top 5 Cloud Security Misconfigurations in 2024
+
+Cloud infrastructure is inherently complex. While AWS, Azure, and GCP provide the tools to build secure environments, the responsibility for configuration lies with the user. In 2024, we saw these five recurring mistakes leading to critical breaches.
+
+## 1. Publicly Accessible Storage Buckets
+It seems simple, yet "Public-Read" S3 buckets or Azure Blobs remain the #1 source of massive data leaks. 
+**The Fix:** Implement Organization-level Service Control Policies (SCPs) that prevent public access by default.
+
+## 2. Overly Permissive IAM Roles
+Wildcard privileges (`"Resource": "*"`) are a gift to attackers. If a single web server is compromised, an attacker can use its role to pivot and encrypt your entire database.
+**The Fix:** Use IAM Access Analyzer to find unused permissions and right-size your roles.
+
+## 3. Lack of Logging and Monitoring
+Many organizations only realize they've been breached when an extortionist emails them. 
+**The Fix:** Enable CloudTrail and GuardDuty in every region and centralize logs into a hardened security account.
+
+## 4. Exposed Secrets in Code
+API keys and database passwords hardcoded in GitHub repositories are the most common entry point for initial access.
+**The Fix:** Use Secrets Manager and implement pre-commit hooks to scan for secrets before they leave the developer's machine.
+
+## 5. Unrestricted Inbound Traffic
+Opening SSH (Port 22) or RDP (Port 3389) to the entire internet is an invitation for brute-force attacks.
+**The Fix:** Use AWS Systems Manager Session Manager or Bastion Hosts with strict IP whitelisting.

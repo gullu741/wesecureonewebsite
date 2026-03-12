@@ -10,6 +10,7 @@ export interface CaseStudy {
   whatWeLearned: string;
   industry: string;
   service: string;
+  date: string;
 }
 
 import portfolioData from '../data/portfolio.json';

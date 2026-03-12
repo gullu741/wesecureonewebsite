@@ -1,17 +1,12 @@
+"use client"
+
 import Link from "next/link"
+import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { services } from "@/src/content/services"
 import { ArrowRight, CheckCircle2, Code2, Building2, ShieldCheck, Wrench } from "lucide-react"
 
-export const metadata = {
-  title: "Cybersecurity Services | WeSecureOne",
-  description: "Comprehensive offensive security, penetration testing, continuous monitoring (MDR), and compliance solutions. Protect your infrastructure with WeSecureOne.",
-  openGraph: {
-    title: "Cybersecurity Services | WeSecureOne",
-    description: "Explore our expert offensive security, MDR, and compliance advisory services tailored for enterprise architecture.",
-  }
-}
 
 export default function ServicesPage() {
   return (
@@ -67,33 +62,75 @@ export default function ServicesPage() {
               </div>
 
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                {catServices.map((service) => (
-                  <Card key={service.slug} className="flex flex-col border-border/50 transition-all hover:border-primary/50 hover:shadow-lg">
-                    <CardHeader>
-                      <div className="mb-2 inline-flex w-fit rounded-full bg-primary/10 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-primary">
-                        {service.shortName}
-                      </div>
-                      <CardTitle className="text-2xl">{service.title}</CardTitle>
-                      <CardDescription className="mt-2 text-base line-clamp-2">
-                        {service.shortDescription}
-                      </CardDescription>
-                    </CardHeader>
-                    <CardContent className="mt-auto">
-                      <ul className="mb-6 space-y-2 text-sm text-muted-foreground">
-                        {service.deliverables.slice(0, 3).map((deliverable, i) => (
-                          <li key={i} className="flex items-start gap-2">
-                            <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                            <span className="line-clamp-1">{deliverable}</span>
-                          </li>
-                        ))}
-                      </ul>
-                      <Button asChild className="w-full" variant="outline">
-                        <Link href={`/services/${service.slug}`}>
-                          Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                        </Link>
-                      </Button>
-                    </CardContent>
-                  </Card>
+                {catServices.map((service, i) => (
+                  <motion.div
+                    key={service.slug}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: i * 0.1 }}
+                    whileHover={{ y: -5 }}
+                    className="group relative"
+                  >
+                    {/* Decorative Background Glow */}
+                    <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 opacity-0 blur transition duration-500 group-hover:opacity-100" />
+                    
+                    <Card className="relative flex h-full flex-col overflow-hidden border-border/50 bg-background/80 backdrop-blur-sm transition-all duration-300 hover:border-primary/30">
+                      {/* Top Accent Bar */}
+                      <div className="h-1 w-0 bg-gradient-to-r from-primary to-secondary transition-all duration-500 group-hover:w-full" />
+                      
+                      <CardHeader className="relative pb-4">
+                        <div className="mb-4 flex items-center justify-between">
+                          <div className="rounded-full bg-primary/10 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-primary">
+                            {service.shortName}
+                          </div>
+                          <div className="opacity-20 transition-opacity duration-300 group-hover:opacity-100">
+                            {Icon && <Icon className="h-5 w-5 text-primary" />}
+                          </div>
+                        </div>
+                        <CardTitle className="text-2xl font-bold tracking-tight text-foreground transition-colors group-hover:text-primary">
+                          {service.title}
+                        </CardTitle>
+                        <CardDescription className="mt-2 text-base leading-relaxed text-muted-foreground line-clamp-2">
+                          {service.shortDescription}
+                        </CardDescription>
+                      </CardHeader>
+                      
+                      <CardContent className="flex flex-1 flex-col">
+                        <div className="mb-8 space-y-3">
+                          <p className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground/50">
+                            Key Deliverables
+                          </p>
+                          <ul className="space-y-2.5">
+                            {service.deliverables.slice(0, 3).map((deliverable, i) => (
+                              <li key={i} className="flex items-start gap-3">
+                                <div className="mt-1 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-primary/10 transition-colors group-hover:bg-primary/20">
+                                  <CheckCircle2 className="h-2.5 w-2.5 text-primary" />
+                                </div>
+                                <span className="text-sm font-medium text-muted-foreground/80 transition-colors group-hover:text-foreground">
+                                  {deliverable}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                        
+                        <div className="mt-auto">
+                          <Button asChild className="w-full group/btn overflow-hidden" variant="ghost">
+                            <Link href={`/services/${service.slug}`} className="flex items-center justify-center gap-2">
+                               <span>Learn More</span>
+                               <motion.div
+                                 className="transition-transform duration-300"
+                                 whileHover={{ x: 5 }}
+                               >
+                                <ArrowRight className="h-4 w-4 text-primary" />
+                               </motion.div>
+                            </Link>
+                          </Button>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </motion.div>
                 ))}
               </div>
             </section>

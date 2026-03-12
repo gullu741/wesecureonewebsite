@@ -28,7 +28,8 @@
     ],
     "whatWeLearned": "Immutable backups are the ultimate fail-safe against modern ransomware. Relying solely on perimeter defenses is a guaranteed path to failure in the financial sector.",
     "industry": "Finance",
-    "service": "Incident Response & DFIR"
+    "service": "Incident Response & DFIR",
+    "date": "2025-01-15"
   },
   {
     "slug": "healthcare-soc2-hipaa",
@@ -59,7 +60,8 @@
     ],
     "whatWeLearned": "Automating compliance evidence collection from day one transforms audits from a multi-month nightmare into a week-long formality.",
     "industry": "Healthcare",
-    "service": "Compliance Advisory & Architecture"
+    "service": "Compliance Advisory & Architecture",
+    "date": "2024-08-22"
   },
   {
     "slug": "retail-black-friday-pentest",
@@ -90,7 +92,8 @@
     ],
     "whatWeLearned": "Even modern, scalable microservices architectures can be critically vulnerable if legacy integrations and custom authentication logic are not rigorously tested.",
     "industry": "Retail & E-commerce",
-    "service": "Advanced Penetration Testing"
+    "service": "Advanced Penetration Testing",
+    "date": "2023-11-05"
   },
   {
     "slug": "saas-aws-cloud-security",
@@ -121,7 +124,8 @@
     ],
     "whatWeLearned": "In the cloud, infrastructure is code. Security must be embedded directly into the CI/CD pipeline (Shift-Left) rather than treated as a post-deployment audit.",
     "industry": "Technology / SaaS",
-    "service": "Cloud Security Engineering"
+    "service": "Cloud Security Engineering",
+    "date": "2024-03-30"
   },
   {
     "slug": "manufacturing-mdr-ot-it",
@@ -152,6 +156,103 @@
     ],
     "whatWeLearned": "Bridging the airgap between IT and OT security requires specialized sensor deployment and a deep understanding of industrial control system protocols.",
     "industry": "Manufacturing",
-    "service": "Managed Detection & Response"
+    "service": "Managed Detection & Response",
+    "date": "2023-06-12"
+  },
+  {
+    "slug": "logistics-supply-chain-security",
+    "title": "Securing Global Logistics Supply Chain from Third-Party Risks",
+    "clientContext": "A Fortune 500 logistics provider with over 10,000 global vendors was vulnerable to multi-stage supply chain attacks targeting their integration points.",
+    "challenge": "The sheer volume of vendors meant traditional security questionnaires were inadequate for detecting technical vulnerabilities in vendor-managed APIs and portals.",
+    "approach": "We deployed a continuous Vendor Risk Management (VRM) platform and conducted deep-dive technical assessments of the client's top 50 critical technology partners.",
+    "solution": "Implemented an API security layer that sanitizes all third-party data and enforces OAuth2.0 across all partner integrations, coupled with real-time risk scoring for every vendor.",
+    "techStack": [
+      "Prevalent (VRM)",
+      "Apigee (API Gateway)",
+      "BitSight Security Ratings",
+      "Splunk"
+    ],
+    "outcomes": [
+      {
+        "metric": "Critical Vendor Gaps Identified",
+        "value": "140+"
+      },
+      {
+        "metric": "Integration Security Score",
+        "value": "+45% Improvement"
+      },
+      {
+        "metric": "Automated Risk Monitoring",
+        "value": "100% Critical Vendors"
+      }
+    ],
+    "whatWeLearned": "A supply chain is only as strong as its weakest API. Continuous technical verification outperforms point-in-time compliance checks every time.",
+    "industry": "Logistics",
+    "service": "Supply Chain Security",
+    "date": "2023-01-20"
+  },
+  {
+    "slug": "government-data-sovereignty",
+    "title": "Establishing Multi-Cloud Data Sovereignty for a Federal Agency",
+    "clientContext": "A national government agency needed to migrate legacy workloads to the cloud while maintaining absolute sovereign control over sensitive citizen data.",
+    "challenge": "Balancing the scalability of public cloud with strict legislative requirements for local data residency and the prevention of extraterritorial data access.",
+    "approach": "We architected a 'Sovereign Landing Zone' on AWS and Azure using hardware security modules (HSMs) and sovereign encryption keys that the cloud providers cannot access.",
+    "solution": "Implemented automated data classification and labeling, strictly enforced geofencing, and deployed a sovereign identity provider to manage all administrative access.",
+    "techStack": [
+      "AWS CloudHSM",
+      "Azure Dedicated HSM",
+      "Identity Management (Sovereign IDP)",
+      "Terraform"
+    ],
+    "outcomes": [
+      {
+        "metric": "Compliance Audit Pass",
+        "value": "100% Sovereign Grade"
+      },
+      {
+        "metric": "Workloads Migrated",
+        "value": "500+ VM Equivalents"
+      },
+      {
+        "metric": "Data Leakage Events",
+        "value": "0"
+      }
+    ],
+    "whatWeLearned": "Data sovereignty in the cloud is a technical challenge, not just a policy one. Customer-managed keys and HSMs are mandatory for high-assurance government workloads.",
+    "industry": "Government",
+    "service": "Cloud Security & Compliance",
+    "date": "2022-09-15"
+  },
+  {
+    "slug": "fintech-api-shielding",
+    "title": "Advanced API Shielding & Bot Defense for Mobile Fintech App",
+    "clientContext": "A high-growth fintech startup was suffering from massive credential stuffing attacks and API scraping by competitive botnets.",
+    "challenge": "Traditional WAFs were blocking legitimate mobile users while failing to stop sophisticated, distributed botnets that emulated human behavior.",
+    "approach": "We implemented an AI-powered bot defense solution and moved the mobile app's API to a zero-trust communication model using mTLS.",
+    "solution": "Deployed F5 Shape Security for bot mitigation and implemented strict API schema validation to prevent unauthorized data extraction.",
+    "techStack": [
+      "F5 Distributed Cloud (Shape)",
+      "mTLS (Mutual TLS)",
+      "Auth0",
+      "Fastly WAF"
+    ],
+    "outcomes": [
+      {
+        "metric": "Malicious Bot Traffic",
+        "value": "Reduced by 99.4%"
+      },
+      {
+        "metric": "Fraudulent Login Attempts",
+        "value": "Dropped 95%"
+      },
+      {
+        "metric": "API Performance",
+        "value": "20% Faster (Reduced Noise)"
+      }
+    ],
+    "whatWeLearned": "Standard rate-limiting is ineffective against modern botnets. Behavioral analysis and mTLS are the new minimum requirements for public-facing fintech APIs.",
+    "industry": "Finance / Fintech",
+    "service": "API Security & Bot Defense",
+    "date": "2024-11-03"
   }
 ]

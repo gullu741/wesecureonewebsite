@@ -12,6 +12,7 @@ export interface CaseStudy {
     whatWeLearned: string;
     industry: string;
     service: string;
+    date: string;
 }
 
 export async function getPortfolioSlugs(): Promise<string[]> {
@@ -24,5 +25,13 @@ export async function getPortfolioBySlug(slug: string): Promise<CaseStudy | null
 }
 
 export async function getAllPortfolios(): Promise<CaseStudy[]> {
-    return portfolios as CaseStudy[];
+    return (portfolios as CaseStudy[]).sort((a, b) => 
+        new Date(b.date).getTime() - new Date(a.date).getTime()
+    );
+}
+
+export function getAllPortfoliosSync(): CaseStudy[] {
+    return (portfolios as CaseStudy[]).sort((a, b) => 
+        new Date(b.date).getTime() - new Date(a.date).getTime()
+    );
 }
