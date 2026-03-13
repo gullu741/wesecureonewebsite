@@ -18,13 +18,13 @@ export default function Home() {
       <section className="relative overflow-hidden bg-background pt-24 md:pt-32">
         <div className="container mx-auto px-4 text-center">
           <Badge className="mb-6" variant="secondary">
-            Offensive Security, MDR, and Compliance
+            Secure Product Development & Elite Cyber Defense
           </Badge>
           <h1 className="mx-auto max-w-4xl text-5xl font-extrabold tracking-tight text-foreground sm:text-6xl md:text-7xl">
-            We Build the Future of <span className="text-primary">Cyber Defense</span>
+            We Build Secure Products & <span className="text-primary">Defend Your Future</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
-            WeSecureOne partners with industry leaders to deliver elite penetration testing, continuous monitoring, and robust cloud security.
+            WeSecureOne partners with industry leaders to engineer scalable platforms, deliver elite penetration testing, and provide continuous monitoring.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button asChild size="lg" className="w-full sm:w-auto">
@@ -122,29 +122,36 @@ export default function Home() {
       <section className="container mx-auto px-4">
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">How We Work</h2>
-          <p className="mt-4 text-muted-foreground">A proven process for delivering exceptional results.</p>
+          <p className="mt-4 text-muted-foreground">A proven process for building secure systems and defending operations.</p>
         </div>
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-4">
           <div className="relative flex flex-col items-center text-center">
             <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-xl font-bold text-primary">
               1
             </div>
-            <h3 className="mb-2 text-xl font-semibold">Discovery & Assessment</h3>
-            <p className="text-muted-foreground">We dive deep into your environment to understand your assets, vulnerabilities, and threat landscape.</p>
+            <h3 className="mb-2 text-xl font-semibold">Architecture & Design</h3>
+            <p className="text-muted-foreground">We plan scalable, resilient foundations and conduct threat modeling before a single line of code is written.</p>
           </div>
           <div className="relative flex flex-col items-center text-center">
             <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-xl font-bold text-primary">
               2
             </div>
-            <h3 className="mb-2 text-xl font-semibold">Remediation & Hardening</h3>
-            <p className="text-muted-foreground">We architect secure solutions and help you patch vulnerabilities to reduce your attack surface.</p>
+            <h3 className="mb-2 text-xl font-semibold">Secure Engineering</h3>
+            <p className="text-muted-foreground">Our full-stack teams build robust products, embedding security best practices directly into the development lifecycle.</p>
           </div>
           <div className="relative flex flex-col items-center text-center">
             <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-xl font-bold text-primary">
               3
             </div>
+            <h3 className="mb-2 text-xl font-semibold">Refinement & Hardening</h3>
+            <p className="text-muted-foreground">We relentlessly test against vulnerabilities through penetration testing and continuous remediation.</p>
+          </div>
+          <div className="relative flex flex-col items-center text-center">
+            <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-xl font-bold text-primary">
+              4
+            </div>
             <h3 className="mb-2 text-xl font-semibold">Continuous Monitoring</h3>
-            <p className="text-muted-foreground">Our expert analysts monitor your network 24/7 to detect and respond to threats in real-time.</p>
+            <p className="text-muted-foreground">Our expert analysts monitor your environment 24/7 to detect and respond to threats in real-time.</p>
           </div>
         </div>
       </section>

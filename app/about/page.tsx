@@ -24,7 +24,7 @@ export default function AboutPage() {
           About WeSecureOne
         </h1>
         <p className="mt-6 text-xl text-muted-foreground">
-          We are a team of elite cybersecurity engineers, threat hunters, and compliance experts dedicated to protecting organizations from advanced cyber threats.
+          We are a team of full-stack product engineers, architects, threat hunters, and compliance experts dedicated to building robust platforms and protecting organizations from advanced cyber threats.
         </p>
       </div>
 
@@ -33,7 +33,7 @@ export default function AboutPage() {
           <section>
             <h2 className="text-3xl font-bold tracking-tight">Our Mission</h2>
             <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-              To empower businesses with robust, proactive, and intelligent cybersecurity solutions that protect their assets and reputation. We believe that security should be a business enabler, not a roadblock.
+              To empower businesses by constructing scalable, innovative technology solutions while simultaneously providing proactive, intelligent cybersecurity defenses that protect their assets and reputation. We believe great products are built securely from the ground up.
             </p>
           </section>
 
@@ -109,9 +109,10 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Leadership Team</h2>
           <p className="mt-4 text-muted-foreground">The experts guiding our vision and strategy.</p>
         </div>
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-4">
           {[
             { name: "Sarah Jenkins", role: "CEO & Chief Information Security Officer", initials: "SJ" },
+            { name: "Michael Chang", role: "Head of Engineering & Product", initials: "MC" },
             { name: "David Chen", role: "Head of Offensive Security", initials: "DC" },
             { name: "Elena Rodriguez", role: "Director of Compliance", initials: "ER" }
           ].map((leader, i) => (
