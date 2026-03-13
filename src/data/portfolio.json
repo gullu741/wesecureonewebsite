@@ -32,6 +32,70 @@
     "date": "2025-01-15"
   },
   {
+    "slug": "scalable-secure-ecommerce",
+    "title": "Building a Scalable, Secure E-commerce Platform for a Global Retailer",
+    "clientContext": "A major international retailer needed to replatform their aging monolithic e-commerce system to handle massive, spiky traffic loads while adhering to strict PCI-DSS compliance.",
+    "challenge": "The legacy system suffered from frequent downtime during peak holiday seasons and was extremely difficult to patch securely, presenting a major risk of a data breach.",
+    "approach": "We designed and engineered a modern, headless e-commerce architecture utilizing microservices. Security was embedded from day one with continuous SAST/DAST pipelines in the CI/CD process.",
+    "solution": "The new platform leverages Shopify Plus for the core engine, coupled with a custom, highly optimized Next.js frontend. All third-party integrations are heavily secured via strict API gateways and WAF rules.",
+    "techStack": [
+      "Shopify Plus",
+      "React / Next.js",
+      "AWS API Gateway",
+      "Cloudflare WAF"
+    ],
+    "outcomes": [
+      {
+        "metric": "Uptime during Peak",
+        "value": "99.999%"
+      },
+      {
+        "metric": "Page Load Speed",
+        "value": "Improved 65%"
+      },
+      {
+        "metric": "Security Incidents",
+        "value": "0"
+      }
+    ],
+    "whatWeLearned": "Decoupling the frontend from the backend (headless architecture) not only drastically reduces the overall attack surface but also enables unprecedented scaling capabilities.",
+    "industry": "Retail",
+    "service": "Ecommerce Development",
+    "date": "2025-11-20"
+  },
+  {
+    "slug": "healthcare-api-ecosystem",
+    "title": "Architecting a High-Performance Healthcare API Ecosystem",
+    "clientContext": "A national healthcare provider required a robust, scalable system to connect a new patient-facing mobile application with their legacy Electronic Health Records (EHR) systems.",
+    "challenge": "The integration needed to be lightning-fast to ensure an excellent user experience, yet rigidly secure to maintain unwavering HIPAA compliance regarding Patient Health Information (PHI).",
+    "approach": "We developed a secure, scalable API middle-tier using GraphQL to minimize data over-fetching. We implemented strict OAuth 2.0 and OIDC flows for granular authentication and authorization.",
+    "solution": "The new API ecosystem processes millions of requests daily. It acts as a secure, high-performance buffer, insulating the fragile legacy EHR systems while securely serving the modern mobile application.",
+    "techStack": [
+      "GraphQL",
+      "Node.js",
+      "OAuth 2.0 / OIDC",
+      "AWS Cognito"
+    ],
+    "outcomes": [
+      {
+        "metric": "API Response Time",
+        "value": "< 100ms"
+      },
+      {
+        "metric": "HIPAA Audits Failed",
+        "value": "0"
+      },
+      {
+        "metric": "Patient Adoption",
+        "value": "2M+ Users"
+      }
+    ],
+    "whatWeLearned": "Strict data minimization at the API layer\u2014which GraphQL excels at\u2014is absolutely essential for healthcare applications to limit unnecessary exposure of sensitive PHI.",
+    "industry": "Healthcare",
+    "service": "API & Headless Development",
+    "date": "2025-08-10"
+  },
+  {
     "slug": "healthcare-soc2-hipaa",
     "title": "Achieving Dual SOC2 & HIPAA Compliance for a Hyper-Growth HealthTech",
     "clientContext": "A fast-growing telemedicine platform needed to prove their security posture to secure highly lucrative, multi-year enterprise contracts with national hospital networks.",

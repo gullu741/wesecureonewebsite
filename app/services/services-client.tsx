@@ -1,14 +1,23 @@
 "use client"
 
+import { useState, useMemo } from "react"
 import Link from "next/link"
-import { motion } from "framer-motion"
+import { motion, AnimatePresence } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle } from "@/components/ui/card"
 import { ArrowRight, CheckCircle2 } from "lucide-react"
 import { Service } from "@/src/content/services"
 import * as Icons from "lucide-react"
 
+const CATEGORIES = ["All", "Consulting & Strategy", "Development", "Implementation & Support", "Industry Solutions"]
+
 export default function ServicesClient({ services }: { services: Service[] }) {
+  const [activeCategory, setActiveCategory] = useState("All")
+
+  const filteredServices = useMemo(() => {
+    if (activeCategory === "All") return services
+    return services.filter((s) => s.category === activeCategory)
+  }, [services, activeCategory])
   return (
     <div className="container mx-auto px-4 py-16 md:py-24">
       <div className="mb-16 max-w-3xl">
@@ -29,8 +38,25 @@ export default function ServicesClient({ services }: { services: Service[] }) {
         </motion.p>
       </div>
 
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {services.map((service, index) => {
+      <div className="mb-12 flex flex-wrap gap-2">
+        {CATEGORIES.map((category) => (
+          <Button
+            key={category}
+            variant={activeCategory === category ? "default" : "outline"}
+            onClick={() => setActiveCategory(category)}
+            className="rounded-full"
+          >
+            {category}
+          </Button>
+        ))}
+      </div>
+
+      <motion.div 
+        layout
+        className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
+      >
+        <AnimatePresence mode="popLayout">
+          {filteredServices.map((service, index) => {
           // Dynamic icon resolution
           const iconName = service.slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join('')
           // @ts-ignore
@@ -38,11 +64,12 @@ export default function ServicesClient({ services }: { services: Service[] }) {
           
           return (
             <motion.div
+              layout
               key={service.slug}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.05 }}
-              whileHover={{ y: -5 }}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.9 }}
+              transition={{ duration: 0.2 }}
               className="group relative"
             >
               <Card className="relative flex h-full flex-col overflow-hidden border-border/50 bg-card shadow-sm transition-all duration-300 hover:border-primary/50 hover:shadow-xl">
@@ -79,7 +106,8 @@ export default function ServicesClient({ services }: { services: Service[] }) {
             </motion.div>
           )
         })}
-      </div>
+        </AnimatePresence>
+      </motion.div>
     </div>
   )
 }
