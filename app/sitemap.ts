@@ -3,6 +3,8 @@ import { services } from '@/src/content/services'
 import { getAllPortfoliosSync } from '@/lib/json-portfolio'
 import { getAllPosts } from '@/lib/json-content'
 
+export const dynamic = 'force-static'
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://wesecureone.com'
 
